@@ -1,0 +1,807 @@
+102/97/
+
+
+
+[sys-init]
+[mac-init] id=c0ab
+TBR=23
+TBR=593
+
+[param]: src=1 timeDiv=1 timeFilter=1 expire=3 window=15 highSourceRate=0
+INIT 0 49323 id=0xc0ab
+@<state|({ 'type':'statnd', 'seqnum': 0, 'shouldGen': 0, 'address':ADDR('abc0'),
+'control': { 'running':1, 'seqnum':0 },
+'neighbor': {
+  }
+})>@@<dragoncast|({ 'type':'dragoncast', 'nodeId':49323, 'currentTime': 0, 'lastTransmitTable': 0, 'lastSeqNum': 0, 'isSource': 1, 'packetSet':{ 'type':'packet-set', 'l':1, 'coefPosMin':None, 'coefPosMax':None, 'packetTable': {}, 'posToId':{}, 'idToPos':{}, 'decoded':[] }, 'flowParam':{ 'type':'flowParam', 'pktInterval':10, 'windowSize': 4, 'nbPacket': 1000 }, 'dragon':{ 'type':'dragon', 'neighborTable': { } } })>@@<info|({'lockFail':0, 'lockOk':0})>@
+TBR.10000 == TAR 44426-44344
+TBR.10000 == TAR 44528-44446
+TBR.10000 == TAR 44629-44547
+TBR.10000 == TAR 44731-44649
+TBR.10000 == TAR 44832-44750
+TBR.10000 == TAR 44934-44852
+TBR.10000 == TAR 45035-44953
+TBR.10000 == TAR 45137-45055
+TBR.10000 == TAR 45238-45156
+TBR.10000 == TAR 45340-45258
+size-of dragoncast = 7978
+  size-of dragon = 4608
+  size-of packet_set = 3344
+GEN 2 nodeid=0xc0ab lowcoef=65535 rank=1 inter=0 guid=1 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':1, 'coefPosMax':15, 'coefValue':[2, 0, 3, 2, 3, 3, 0, 3, 2, 2, 1, 1, 1, 2, 1], 'data':'\x56\x02\x0d\x0d\x0d\x0d' }
+msg-size=59
+GEN 4 nodeid=0xc0ab lowcoef=0 rank=2 inter=0 guid=2 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[2, 1, 1, 2, 2, 3, 0, 3, 3, 2, 3, 0, 1, 0, 1], 'data':'\xeb\xa9\x06\x06\x06\x06' }
+msg-size=59
+GEN 6 nodeid=0xc0ab lowcoef=0 rank=3 inter=0 guid=3 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[3, 3, 3, 2, 2, 1, 2, 3, 3, 0, 1, 0, 0, 3, 2], 'data':'\x9d\x4a\x09\x09\x09\x09' }
+msg-size=59
+GEN 8 nodeid=0xc0ab lowcoef=0 rank=4 inter=0 guid=4 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[0, 3, 3, 0, 1, 1, 2, 1, 1, 0, 1, 2, 3, 2, 0], 'data':'\xae\x60\x0e\x0e\x0e\x0e' }
+msg-size=59
+GEN 10 nodeid=0xc0ab lowcoef=0 rank=5 inter=0 guid=5 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[0, 0, 2, 3, 1, 2, 3, 2, 0, 3, 0, 1, 3, 1, 1], 'data':'\xc6\x6e\x0c\x0c\x0c\x0c' }
+msg-size=59
+GEN 12 nodeid=0xc0ab lowcoef=0 rank=6 inter=0 guid=6 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[3, 0, 1, 2, 2, 3, 0, 3, 3, 2, 3, 0, 0, 0, 2], 'data':'\x20\xe1\x02\x02\x02\x02' }
+msg-size=59
+GEN 14 nodeid=0xc0ab lowcoef=0 rank=7 inter=0 guid=7 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[2, 3, 0, 1, 3, 0, 1, 0, 2, 1, 2, 3, 1, 3, 3], 'data':'\xcd\x6f\x08\x08\x08\x08' }
+msg-size=59
+GEN 16 nodeid=0xc0ab lowcoef=0 rank=8 inter=0 guid=8 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[2, 1, 2, 1, 3, 2, 3, 0, 2, 3, 1, 3, 2, 3, 3], 'data':'\x35\x0d\x0b\x0b\x0b\x0b' }
+msg-size=59
+GEN 18 nodeid=0xc0ab lowcoef=0 rank=9 inter=0 guid=9 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[0, 2, 2, 3, 1, 1, 2, 3, 0, 3, 0, 1, 3, 0, 2], 'data':'\xcf\xa3\x04\x04\x04\x04' }
+msg-size=59
+GEN 20 nodeid=0xc0ab lowcoef=0 rank=10 inter=0 guid=10 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[0, 2, 0, 3, 1, 1, 2, 1, 0, 1, 3, 1, 3, 2, 1], 'data':'\xed\xb6\x0a\x0a\x0a\x0a' }
+msg-size=59
+DECODED 22 nodeid=0xc0ab pos=1 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':1, 'coefPosMax':1, 'coefValue':[1], 'data':'\x90\x48\x01\x01\x01\x01' }
+GEN 22 nodeid=0xc0ab lowcoef=0 rank=11 inter=0 guid=11 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[1, 0, 1, 0, 0, 3, 0, 1, 1, 2, 2, 2, 1, 2, 0], 'data':'\x43\xca\x04\x04\x04\x04' }
+msg-size=59
+DECODED 24 nodeid=0xc0ab pos=12 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':12, 'coefPosMax':12, 'coefValue':[1], 'data':'\xc6\x72\x0c\x0c\x0c\x0c' }
+DECODED 24 nodeid=0xc0ab pos=15 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':15, 'coefPosMax':15, 'coefValue':[1], 'data':'\x76\xc7\x0f\x0f\x0f\x0f' }
+GEN 24 nodeid=0xc0ab lowcoef=0 rank=12 inter=0 guid=12 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[1, 1, 2, 1, 0, 2, 3, 0, 2, 3, 1, 3, 2, 3, 3], 'data':'\xf7\xac\x07\x07\x07\x07' }
+msg-size=59
+GEN 26 nodeid=0xc0ab lowcoef=0 rank=13 inter=0 guid=13 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[0, 1, 2, 3, 1, 2, 0, 2, 0, 3, 1, 1, 3, 0, 1], 'data':'\x77\x6b\x07\x07\x07\x07' }
+msg-size=59
+GEN 28 nodeid=0xc0ab lowcoef=0 rank=13 inter=0 guid=14 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[3, 0, 1, 2, 2, 3, 3, 3, 3, 2, 2, 0, 0, 1, 2], 'data':'\x01\xac\x08\x08\x08\x08' }
+msg-size=59
+DECODED 30 nodeid=0xc0ab pos=7 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':7, 'coefPosMax':7, 'coefValue':[1], 'data':'\xf3\x63\x07\x07\x07\x07' }
+GEN 30 nodeid=0xc0ab lowcoef=0 rank=14 inter=0 guid=15 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[1, 1, 2, 3, 1, 2, 0, 2, 0, 3, 1, 1, 2, 1, 1], 'data':'\xe7\x23\x06\x06\x06\x06' }
+msg-size=59
+DECODED 32 nodeid=0xc0ab pos=0 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':0, 'coefValue':[1], 'data':'\x00\x24\x00\x00\x00\x00' }
+DECODED 32 nodeid=0xc0ab pos=3 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':3, 'coefPosMax':3, 'coefValue':[1], 'data':'\xb0\x91\x03\x03\x03\x03' }
+DECODED 32 nodeid=0xc0ab pos=4 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':4, 'coefPosMax':4, 'coefValue':[1], 'data':'\x43\xd6\x04\x04\x04\x04' }
+DECODED 32 nodeid=0xc0ab pos=5 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':5, 'coefPosMax':5, 'coefValue':[1], 'data':'\xd3\xba\x05\x05\x05\x05' }
+DECODED 32 nodeid=0xc0ab pos=6 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':6, 'coefPosMax':6, 'coefValue':[1], 'data':'\x63\x0f\x06\x06\x06\x06' }
+DECODED 32 nodeid=0xc0ab pos=10 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':10, 'coefPosMax':10, 'coefValue':[1], 'data':'\xa5\x59\x0a\x0a\x0a\x0a' }
+DECODED 32 nodeid=0xc0ab pos=13 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':13, 'coefPosMax':13, 'coefValue':[1], 'data':'\x56\x1e\x0d\x0d\x0d\x0d' }
+DECODED 32 nodeid=0xc0ab pos=14 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':14, 'coefPosMax':14, 'coefValue':[1], 'data':'\xe6\xab\x0e\x0e\x0e\x0e' }
+GEN 32 nodeid=0xc0ab lowcoef=0 rank=15 inter=0 guid=16 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':0, 'coefPosMax':14, 'coefValue':[2, 0, 2, 1, 3, 3, 3, 3, 2, 3, 1, 3, 1, 0, 3], 'data':'\xa4\xf5\x02\x02\x02\x02' }
+msg-size=59
+GEN 34 nodeid=0xc0ab lowcoef=2 rank=15 inter=0 guid=17 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':1, 'coefPosMax':15, 'coefValue':[1, 2, 0, 1, 1, 1, 2, 1, 0, 0, 3, 3, 2, 0, 2], 'data':'\x15\xec\x09\x09\x09\x09' }
+msg-size=59
+DECODED 36 nodeid=0xc0ab pos=2 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':2, 'coefPosMax':2, 'coefValue':[1], 'data':'\x20\xfd\x02\x02\x02\x02' }
+DECODED 36 nodeid=0xc0ab pos=8 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':8, 'coefPosMax':8, 'coefValue':[1], 'data':'\x85\x80\x08\x08\x08\x08' }
+DECODED 36 nodeid=0xc0ab pos=9 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':9, 'coefPosMax':9, 'coefValue':[1], 'data':'\x15\xec\x09\x09\x09\x09' }
+DECODED 36 nodeid=0xc0ab pos=11 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':11, 'coefPosMax':11, 'coefValue':[1], 'data':'\x35\x35\x0b\x0b\x0b\x0b' }
+GEN 36 nodeid=0xc0ab lowcoef=2 rank=16 inter=0 guid=18 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':2, 'coefPosMax':16, 'coefValue':[1, 0, 3, 3, 3, 0, 1, 3, 1, 2, 0, 0, 3, 0, 0], 'data':'\x1a\x22\x0d\x0d\x0d\x0d' }
+msg-size=59
+DECODED 38 nodeid=0xc0ab pos=17 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':17, 'coefPosMax':17, 'coefValue':[1], 'data':'\x99\x41\x11\x11\x11\x11' }
+GEN 38 nodeid=0xc0ab lowcoef=15 rank=17 inter=0 guid=19 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':3, 'coefPosMax':17, 'coefValue':[1, 1, 0, 1, 2, 0, 1, 2, 1, 3, 2, 2, 1, 0, 1], 'data':'\xa9\x33\x12\x12\x12\x12' }
+msg-size=59
+GEN 40 nodeid=0xc0ab lowcoef=16 rank=18 inter=0 guid=20 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':4, 'coefPosMax':18, 'coefValue':[1, 3, 3, 3, 3, 2, 2, 0, 0, 0, 2, 1, 3, 2, 2], 'data':'\xc4\x0a\x34\x34\x34\x34' }
+msg-size=59
+GEN 42 nodeid=0xc0ab lowcoef=16 rank=19 inter=0 guid=21 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':5, 'coefPosMax':19, 'coefValue':[0, 2, 1, 1, 1, 1, 2, 2, 2, 3, 0, 1, 0, 1, 2], 'data':'\xee\x9e\x22\x22\x22\x22' }
+msg-size=59
+GEN 44 nodeid=0xc0ab lowcoef=16 rank=20 inter=0 guid=22 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':6, 'coefPosMax':20, 'coefValue':[0, 1, 1, 0, 1, 2, 2, 3, 0, 0, 2, 0, 1, 3, 1], 'data':'\x75\x63\x13\x13\x13\x13' }
+msg-size=59
+GEN 46 nodeid=0xc0ab lowcoef=16 rank=21 inter=0 guid=23 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':7, 'coefPosMax':21, 'coefValue':[3, 1, 0, 0, 3, 3, 2, 0, 2, 1, 0, 0, 3, 2, 3], 'data':'\xe1\xac\x3e\x3e\x3e\x3e' }
+msg-size=59
+DECODED 48 nodeid=0xc0ab pos=16 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':16, 'coefPosMax':16, 'coefValue':[1], 'data':'\x09\x2d\x10\x10\x10\x10' }
+DECODED 48 nodeid=0xc0ab pos=18 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':18, 'coefPosMax':18, 'coefValue':[1], 'data':'\x29\xf4\x12\x12\x12\x12' }
+DECODED 48 nodeid=0xc0ab pos=19 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':19, 'coefPosMax':19, 'coefValue':[1], 'data':'\xb9\x98\x13\x13\x13\x13' }
+DECODED 48 nodeid=0xc0ab pos=20 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':20, 'coefPosMax':20, 'coefValue':[1], 'data':'\x4a\xdf\x14\x14\x14\x14' }
+DECODED 48 nodeid=0xc0ab pos=21 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':21, 'coefPosMax':21, 'coefValue':[1], 'data':'\xda\xb3\x15\x15\x15\x15' }
+GEN 48 nodeid=0xc0ab lowcoef=16 rank=22 inter=0 guid=24 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':8, 'coefPosMax':22, 'coefValue':[2, 1, 3, 0, 2, 1, 1, 2, 3, 1, 3, 0, 3, 3, 0], 'data':'\x19\x9a\x11\x11\x11\x11' }
+msg-size=59
+DECODED 50 nodeid=0xc0ab pos=23 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':23, 'coefPosMax':23, 'coefValue':[1], 'data':'\xfa\x6a\x17\x17\x17\x17' }
+GEN 50 nodeid=0xc0ab lowcoef=21 rank=23 inter=0 guid=25 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':9, 'coefPosMax':23, 'coefValue':[2, 1, 2, 3, 1, 3, 1, 1, 1, 1, 2, 2, 3, 0, 3], 'data':'\x5d\xff\x11\x11\x11\x11' }
+msg-size=59
+DECODED 52 nodeid=0xc0ab pos=22 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':22, 'coefPosMax':22, 'coefValue':[1], 'data':'\x6a\x06\x16\x16\x16\x16' }
+GEN 52 nodeid=0xc0ab lowcoef=22 rank=24 inter=0 guid=26 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':10, 'coefPosMax':24, 'coefValue':[3, 2, 2, 3, 3, 0, 2, 0, 1, 3, 1, 0, 3, 3, 0], 'data':'\x14\xa0\x19\x19\x19\x19' }
+msg-size=59
+GEN 54 nodeid=0xc0ab lowcoef=23 rank=25 inter=0 guid=27 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':11, 'coefPosMax':25, 'coefValue':[2, 3, 2, 1, 2, 1, 0, 0, 3, 2, 3, 0, 0, 3, 2], 'data':'\x79\x5d\x27\x27\x27\x27' }
+msg-size=59
+GEN 56 nodeid=0xc0ab lowcoef=24 rank=26 inter=0 guid=28 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':12, 'coefPosMax':26, 'coefValue':[1, 0, 3, 0, 2, 3, 0, 3, 1, 0, 0, 2, 0, 1, 2], 'data':'\xb8\x80\x2f\x2f\x2f\x2f' }
+msg-size=59
+GEN 58 nodeid=0xc0ab lowcoef=24 rank=27 inter=0 guid=29 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':13, 'coefPosMax':27, 'coefValue':[3, 1, 2, 0, 1, 3, 1, 3, 2, 0, 0, 2, 3, 1, 3], 'data':'\x65\xec\x12\x12\x12\x12' }
+msg-size=59
+GEN 60 nodeid=0xc0ab lowcoef=24 rank=28 inter=0 guid=30 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':14, 'coefPosMax':28, 'coefValue':[3, 2, 0, 1, 0, 3, 2, 3, 0, 3, 0, 2, 1, 2, 3], 'data':'\x71\x20\x27\x27\x27\x27' }
+msg-size=59
+GEN 62 nodeid=0xc0ab lowcoef=24 rank=29 inter=0 guid=31 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':15, 'coefPosMax':29, 'coefValue':[0, 2, 0, 0, 3, 3, 3, 3, 0, 0, 1, 1, 2, 0, 1], 'data':'\x37\x21\x1f\x1f\x1f\x1f' }
+msg-size=59
+GEN 64 nodeid=0xc0ab lowcoef=24 rank=30 inter=0 guid=32 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':16, 'coefPosMax':30, 'coefValue':[2, 2, 3, 0, 2, 3, 0, 3, 1, 0, 2, 3, 3, 2, 2], 'data':'\x62\xf7\x22\x22\x22\x22' }
+msg-size=59
+DECODED 66 nodeid=0xc0ab pos=31 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':31, 'coefPosMax':31, 'coefValue':[1], 'data':'\x7f\xce\x1f\x1f\x1f\x1f' }
+GEN 66 nodeid=0xc0ab lowcoef=24 rank=31 inter=0 guid=33 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':17, 'coefPosMax':31, 'coefValue':[1, 2, 2, 0, 1, 3, 0, 3, 2, 0, 2, 1, 0, 0, 3], 'data':'\x2b\x90\x2a\x2a\x2a\x2a' }
+msg-size=59
+DECODED 68 nodeid=0xc0ab pos=32 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':32, 'coefPosMax':32, 'coefValue':[1], 'data':'\x12\x36\x20\x20\x20\x20' }
+GEN 68 nodeid=0xc0ab lowcoef=24 rank=32 inter=0 guid=34 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':18, 'coefPosMax':32, 'coefValue':[1, 0, 0, 1, 2, 1, 1, 1, 1, 1, 3, 1, 0, 3, 3], 'data':'\xb8\x73\x34\x34\x34\x34' }
+msg-size=59
+DECODED 70 nodeid=0xc0ab pos=24 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':24, 'coefPosMax':24, 'coefValue':[1], 'data':'\x8c\x89\x18\x18\x18\x18' }
+DECODED 70 nodeid=0xc0ab pos=25 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':25, 'coefPosMax':25, 'coefValue':[1], 'data':'\x1c\xe5\x19\x19\x19\x19' }
+DECODED 70 nodeid=0xc0ab pos=26 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':26, 'coefPosMax':26, 'coefValue':[1], 'data':'\xac\x50\x1a\x1a\x1a\x1a' }
+DECODED 70 nodeid=0xc0ab pos=27 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':27, 'coefPosMax':27, 'coefValue':[1], 'data':'\x3c\x3c\x1b\x1b\x1b\x1b' }
+DECODED 70 nodeid=0xc0ab pos=28 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':28, 'coefPosMax':28, 'coefValue':[1], 'data':'\xcf\x7b\x1c\x1c\x1c\x1c' }
+DECODED 70 nodeid=0xc0ab pos=29 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':29, 'coefPosMax':29, 'coefValue':[1], 'data':'\x5f\x17\x1d\x1d\x1d\x1d' }
+DECODED 70 nodeid=0xc0ab pos=30 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':30, 'coefPosMax':30, 'coefValue':[1], 'data':'\xef\xa2\x1e\x1e\x1e\x1e' }
+GEN 70 nodeid=0xc0ab lowcoef=24 rank=33 inter=0 guid=35 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':19, 'coefPosMax':33, 'coefValue':[1, 0, 2, 1, 2, 0, 1, 2, 0, 0, 1, 2, 0, 1, 0], 'data':'\x33\x67\x2a\x2a\x2a\x2a' }
+msg-size=59
+GEN 72 nodeid=0xc0ab lowcoef=32 rank=34 inter=0 guid=36 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':20, 'coefPosMax':34, 'coefValue':[0, 2, 0, 3, 1, 0, 2, 3, 3, 2, 3, 1, 3, 1, 1], 'data':'\xd1\xcd\x3e\x3e\x3e\x3e' }
+msg-size=59
+DECODED 74 nodeid=0xc0ab pos=35 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':35, 'coefPosMax':35, 'coefValue':[1], 'data':'\xa2\x83\x23\x23\x23\x23' }
+GEN 74 nodeid=0xc0ab lowcoef=33 rank=35 inter=0 guid=37 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':21, 'coefPosMax':35, 'coefValue':[2, 2, 1, 1, 0, 3, 0, 1, 2, 0, 3, 1, 0, 0, 3], 'data':'\x3d\x66\x09\x09\x09\x09' }
+msg-size=59
+DECODED 76 nodeid=0xc0ab pos=33 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':33, 'coefPosMax':33, 'coefValue':[1], 'data':'\x82\x5a\x21\x21\x21\x21' }
+DECODED 76 nodeid=0xc0ab pos=34 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':34, 'coefPosMax':34, 'coefValue':[1], 'data':'\x32\xef\x22\x22\x22\x22' }
+GEN 76 nodeid=0xc0ab lowcoef=33 rank=36 inter=0 guid=38 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':22, 'coefPosMax':36, 'coefValue':[0, 2, 2, 3, 0, 0, 2, 3, 0, 3, 1, 0, 1, 2, 0], 'data':'\x25\xdc\x24\x24\x24\x24' }
+msg-size=59
+DECODED 78 nodeid=0xc0ab pos=37 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':37, 'coefPosMax':37, 'coefValue':[1], 'data':'\xc1\xa8\x25\x25\x25\x25' }
+GEN 78 nodeid=0xc0ab lowcoef=35 rank=37 inter=0 guid=39 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':23, 'coefPosMax':37, 'coefValue':[2, 3, 2, 0, 3, 2, 0, 1, 2, 0, 2, 2, 0, 0, 1], 'data':'\x35\xa0\x3e\x3e\x3e\x3e' }
+msg-size=59
+GEN 80 nodeid=0xc0ab lowcoef=36 rank=38 inter=0 guid=40 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':24, 'coefPosMax':38, 'coefValue':[2, 0, 3, 1, 3, 2, 0, 3, 2, 0, 0, 3, 2, 3, 3], 'data':'\xd5\x3a\x3e\x3e\x3e\x3e' }
+msg-size=59
+GEN 82 nodeid=0xc0ab lowcoef=36 rank=39 inter=0 guid=41 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':25, 'coefPosMax':39, 'coefValue':[3, 0, 2, 2, 0, 0, 3, 3, 3, 0, 3, 0, 0, 1, 2], 'data':'\xa1\x8a\x0a\x0a\x0a\x0a' }
+msg-size=59
+DECODED 84 nodeid=0xc0ab pos=36 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':36, 'coefPosMax':36, 'coefValue':[1], 'data':'\x51\xc4\x24\x24\x24\x24' }
+DECODED 84 nodeid=0xc0ab pos=38 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':38, 'coefPosMax':38, 'coefValue':[1], 'data':'\x71\x1d\x26\x26\x26\x26' }
+DECODED 84 nodeid=0xc0ab pos=39 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':39, 'coefPosMax':39, 'coefValue':[1], 'data':'\xe1\x71\x27\x27\x27\x27' }
+GEN 84 nodeid=0xc0ab lowcoef=36 rank=40 inter=0 guid=42 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':26, 'coefPosMax':40, 'coefValue':[3, 2, 3, 3, 0, 3, 3, 3, 1, 3, 1, 0, 2, 3, 0], 'data':'\x95\xc1\x13\x13\x13\x13' }
+msg-size=59
+DECODED 86 nodeid=0xc0ab pos=41 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':41, 'coefPosMax':41, 'coefValue':[1], 'data':'\x07\xfe\x29\x29\x29\x29' }
+GEN 86 nodeid=0xc0ab lowcoef=39 rank=41 inter=0 guid=43 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':27, 'coefPosMax':41, 'coefValue':[2, 2, 3, 1, 3, 1, 0, 2, 2, 0, 1, 2, 1, 0, 1], 'data':'\xe9\x1f\x24\x24\x24\x24' }
+msg-size=59
+DECODED 88 nodeid=0xc0ab pos=42 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':42, 'coefPosMax':42, 'coefValue':[1], 'data':'\xb7\x4b\x2a\x2a\x2a\x2a' }
+GEN 88 nodeid=0xc0ab lowcoef=40 rank=42 inter=0 guid=44 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':28, 'coefPosMax':42, 'coefValue':[2, 0, 0, 3, 2, 2, 0, 3, 1, 3, 1, 3, 0, 0, 2], 'data':'\xf7\x01\x32\x32\x32\x32' }
+msg-size=59
+GEN 90 nodeid=0xc0ab lowcoef=40 rank=43 inter=0 guid=45 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':29, 'coefPosMax':43, 'coefValue':[1, 2, 1, 1, 1, 2, 1, 3, 2, 3, 0, 2, 3, 0, 2], 'data':'\xf8\x88\x19\x19\x19\x19' }
+msg-size=59
+GEN 92 nodeid=0xc0ab lowcoef=40 rank=44 inter=0 guid=46 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':30, 'coefPosMax':44, 'coefValue':[0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 2, 3, 0, 3, 2], 'data':'\xad\xd8\x12\x12\x12\x12' }
+msg-size=59
+GEN 94 nodeid=0xc0ab lowcoef=40 rank=45 inter=0 guid=47 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':31, 'coefPosMax':45, 'coefValue':[3, 0, 0, 2, 1, 0, 1, 3, 0, 2, 2, 0, 2, 2, 3], 'data':'\x04\xd9\x02\x02\x02\x02' }
+msg-size=59
+GEN 96 nodeid=0xc0ab lowcoef=40 rank=46 inter=0 guid=48 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':32, 'coefPosMax':46, 'coefValue':[0, 2, 0, 3, 0, 3, 1, 2, 0, 1, 2, 0, 0, 2, 3], 'data':'\xe8\x26\x19\x19\x19\x19' }
+msg-size=59
+GEN 98 nodeid=0xc0ab lowcoef=40 rank=47 inter=0 guid=49 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':33, 'coefPosMax':47, 'coefValue':[0, 2, 1, 3, 2, 0, 1, 2, 3, 1, 2, 2, 3, 2, 2], 'data':'\xcc\xc3\x00\x00\x00\x00' }
+msg-size=59
+GEN 100 nodeid=0xc0ab lowcoef=40 rank=48 inter=0 guid=50 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':34, 'coefPosMax':48, 'coefValue':[1, 2, 2, 3, 3, 3, 3, 2, 2, 2, 1, 0, 1, 2, 2], 'data':'\xb2\xde\x38\x38\x38\x38' }
+msg-size=59
+GEN 102 nodeid=0xc0ab lowcoef=40 rank=49 inter=0 guid=51 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':35, 'coefPosMax':49, 'coefValue':[3, 3, 2, 1, 2, 2, 0, 0, 3, 3, 3, 3, 0, 0, 1], 'data':'\x43\xac\x2a\x2a\x2a\x2a' }
+msg-size=59
+DECODED 104 nodeid=0xc0ab pos=50 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':50, 'coefPosMax':50, 'coefValue':[1], 'data':'\x3b\xe6\x32\x32\x32\x32' }
+GEN 104 nodeid=0xc0ab lowcoef=40 rank=50 inter=0 guid=52 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':36, 'coefPosMax':50, 'coefValue':[1, 0, 3, 0, 0, 1, 2, 1, 0, 0, 1, 2, 2, 3, 3], 'data':'\x4a\x02\x0d\x0d\x0d\x0d' }
+msg-size=59
+DECODED 106 nodeid=0xc0ab pos=40 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':40, 'coefPosMax':40, 'coefValue':[1], 'data':'\x97\x92\x28\x28\x28\x28' }
+DECODED 106 nodeid=0xc0ab pos=43 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':43, 'coefPosMax':43, 'coefValue':[1], 'data':'\x27\x27\x2b\x2b\x2b\x2b' }
+DECODED 106 nodeid=0xc0ab pos=44 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':44, 'coefPosMax':44, 'coefValue':[1], 'data':'\xd4\x60\x2c\x2c\x2c\x2c' }
+DECODED 106 nodeid=0xc0ab pos=45 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':45, 'coefPosMax':45, 'coefValue':[1], 'data':'\x44\x0c\x2d\x2d\x2d\x2d' }
+DECODED 106 nodeid=0xc0ab pos=46 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':46, 'coefPosMax':46, 'coefValue':[1], 'data':'\xf4\xb9\x2e\x2e\x2e\x2e' }
+DECODED 106 nodeid=0xc0ab pos=47 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':47, 'coefPosMax':47, 'coefValue':[1], 'data':'\x64\xd5\x2f\x2f\x2f\x2f' }
+DECODED 106 nodeid=0xc0ab pos=48 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':48, 'coefPosMax':48, 'coefValue':[1], 'data':'\x1b\x3f\x30\x30\x30\x30' }
+DECODED 106 nodeid=0xc0ab pos=49 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':49, 'coefPosMax':49, 'coefValue':[1], 'data':'\x8b\x53\x31\x31\x31\x31' }
+GEN 106 nodeid=0xc0ab lowcoef=40 rank=51 inter=0 guid=53 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':37, 'coefPosMax':51, 'coefValue':[3, 3, 1, 3, 2, 0, 1, 1, 3, 1, 3, 1, 0, 2, 0], 'data':'\xe7\x35\x04\x04\x04\x04' }
+msg-size=59
+GEN 108 nodeid=0xc0ab lowcoef=50 rank=52 inter=0 guid=54 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':38, 'coefPosMax':52, 'coefValue':[1, 0, 0, 1, 3, 1, 1, 1, 0, 3, 1, 3, 1, 3, 3], 'data':'\xb7\x34\x05\x05\x05\x05' }
+msg-size=59
+GEN 110 nodeid=0xc0ab lowcoef=51 rank=53 inter=0 guid=55 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':39, 'coefPosMax':53, 'coefValue':[2, 3, 2, 3, 3, 1, 1, 2, 1, 1, 0, 0, 1, 3, 1], 'data':'\x55\x94\x13\x13\x13\x13' }
+msg-size=59
+GEN 112 nodeid=0xc0ab lowcoef=51 rank=54 inter=0 guid=56 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':40, 'coefPosMax':54, 'coefValue':[3, 3, 1, 2, 2, 3, 2, 2, 0, 1, 3, 1, 0, 0, 3], 'data':'\x58\xde\x37\x37\x37\x37' }
+msg-size=59
+GEN 114 nodeid=0xc0ab lowcoef=51 rank=55 inter=0 guid=57 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':41, 'coefPosMax':55, 'coefValue':[1, 1, 3, 2, 0, 2, 1, 3, 1, 3, 1, 1, 0, 2, 1], 'data':'\xe6\xe3\x22\x22\x22\x22' }
+msg-size=59
+DECODED 116 nodeid=0xc0ab pos=56 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':56, 'coefPosMax':56, 'coefValue':[1], 'data':'\x9e\x9b\x38\x38\x38\x38' }
+GEN 116 nodeid=0xc0ab lowcoef=51 rank=56 inter=0 guid=58 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':42, 'coefPosMax':56, 'coefValue':[3, 2, 0, 0, 2, 2, 3, 2, 3, 1, 1, 0, 2, 1, 3], 'data':'\x94\x3c\x36\x36\x36\x36' }
+msg-size=59
+GEN 118 nodeid=0xc0ab lowcoef=51 rank=57 inter=0 guid=59 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':43, 'coefPosMax':57, 'coefValue':[2, 3, 2, 2, 1, 3, 2, 1, 1, 1, 1, 2, 0, 0, 1], 'data':'\x58\xb2\x1b\x1b\x1b\x1b' }
+msg-size=59
+DECODED 120 nodeid=0xc0ab pos=58 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':58, 'coefPosMax':58, 'coefValue':[1], 'data':'\xbe\x42\x3a\x3a\x3a\x3a' }
+GEN 120 nodeid=0xc0ab lowcoef=51 rank=58 inter=0 guid=60 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':44, 'coefPosMax':58, 'coefValue':[3, 3, 1, 2, 1, 0, 2, 0, 3, 3, 0, 2, 2, 3, 3], 'data':'\xb1\x89\x3f\x3f\x3f\x3f' }
+msg-size=59
+DECODED 122 nodeid=0xc0ab pos=51 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':51, 'coefPosMax':51, 'coefValue':[1], 'data':'\xab\x8a\x33\x33\x33\x33' }
+DECODED 122 nodeid=0xc0ab pos=52 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':52, 'coefPosMax':52, 'coefValue':[1], 'data':'\x58\xcd\x34\x34\x34\x34' }
+DECODED 122 nodeid=0xc0ab pos=53 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':53, 'coefPosMax':53, 'coefValue':[1], 'data':'\xc8\xa1\x35\x35\x35\x35' }
+DECODED 122 nodeid=0xc0ab pos=54 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':54, 'coefPosMax':54, 'coefValue':[1], 'data':'\x78\x14\x36\x36\x36\x36' }
+DECODED 122 nodeid=0xc0ab pos=55 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':55, 'coefPosMax':55, 'coefValue':[1], 'data':'\xe8\x78\x37\x37\x37\x37' }
+DECODED 122 nodeid=0xc0ab pos=57 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':57, 'coefPosMax':57, 'coefValue':[1], 'data':'\x0e\xf7\x39\x39\x39\x39' }
+GEN 122 nodeid=0xc0ab lowcoef=51 rank=59 inter=0 guid=61 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':45, 'coefPosMax':59, 'coefValue':[2, 1, 2, 0, 0, 2, 0, 0, 3, 1, 2, 0, 3, 3, 0], 'data':'\x39\x18\x3c\x3c\x3c\x3c' }
+msg-size=59
+DECODED 124 nodeid=0xc0ab pos=60 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':60, 'coefPosMax':60, 'coefValue':[1], 'data':'\xdd\x69\x3c\x3c\x3c\x3c' }
+GEN 124 nodeid=0xc0ab lowcoef=58 rank=60 inter=0 guid=62 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':46, 'coefPosMax':60, 'coefValue':[3, 2, 2, 3, 0, 0, 2, 3, 0, 2, 2, 2, 0, 0, 2], 'data':'\xad\x69\x27\x27\x27\x27' }
+msg-size=59
+GEN 126 nodeid=0xc0ab lowcoef=59 rank=61 inter=0 guid=63 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':47, 'coefPosMax':61, 'coefValue':[3, 0, 1, 1, 1, 0, 2, 2, 1, 0, 0, 2, 1, 3, 2], 'data':'\x3b\x52\x06\x06\x06\x06' }
+msg-size=59
+DECODED 128 nodeid=0xc0ab pos=62 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':62, 'coefPosMax':62, 'coefValue':[1], 'data':'\xfd\xb0\x3e\x3e\x3e\x3e' }
+GEN 128 nodeid=0xc0ab lowcoef=59 rank=62 inter=0 guid=64 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':48, 'coefPosMax':62, 'coefValue':[3, 2, 1, 2, 0, 3, 0, 3, 1, 3, 1, 2, 3, 3, 3], 'data':'\xe8\xed\x02\x02\x02\x02' }
+msg-size=59
+DECODED 130 nodeid=0xc0ab pos=59 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':59, 'coefPosMax':59, 'coefValue':[1], 'data':'\x2e\x2e\x3b\x3b\x3b\x3b' }
+DECODED 130 nodeid=0xc0ab pos=61 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':61, 'coefPosMax':61, 'coefValue':[1], 'data':'\x4d\x05\x3d\x3d\x3d\x3d' }
+GEN 130 nodeid=0xc0ab lowcoef=59 rank=63 inter=0 guid=65 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':49, 'coefPosMax':63, 'coefValue':[3, 3, 1, 1, 1, 3, 0, 0, 1, 2, 1, 0, 1, 3, 0], 'data':'\xae\x8a\x14\x14\x14\x14' }
+msg-size=59
+GEN 132 nodeid=0xc0ab lowcoef=62 rank=64 inter=0 guid=66 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':50, 'coefPosMax':64, 'coefValue':[2, 2, 2, 3, 0, 0, 2, 0, 0, 3, 3, 2, 0, 2, 1], 'data':'\x99\xec\x64\x64\x64\x64' }
+msg-size=59
+DECODED 134 nodeid=0xc0ab pos=63 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':63, 'coefPosMax':63, 'coefValue':[1], 'data':'\x6d\xdc\x3f\x3f\x3f\x3f' }
+DECODED 134 nodeid=0xc0ab pos=64 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':64, 'coefPosMax':64, 'coefValue':[1], 'data':'\x24\x00\x40\x40\x40\x40' }
+GEN 134 nodeid=0xc0ab lowcoef=63 rank=65 inter=0 guid=67 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':51, 'coefPosMax':65, 'coefValue':[0, 1, 3, 3, 0, 2, 3, 1, 3, 2, 3, 3, 0, 1, 0], 'data':'\x53\x6b\x47\x47\x47\x47' }
+msg-size=59
+DECODED 136 nodeid=0xc0ab pos=65 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':65, 'coefPosMax':65, 'coefValue':[1], 'data':'\xb4\x6c\x41\x41\x41\x41' }
+GEN 136 nodeid=0xc0ab lowcoef=64 rank=66 inter=0 guid=68 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':52, 'coefPosMax':66, 'coefValue':[0, 3, 1, 2, 2, 3, 0, 3, 2, 3, 1, 2, 3, 2, 0], 'data':'\x55\x50\x4b\x4b\x4b\x4b' }
+msg-size=59
+GEN 138 nodeid=0xc0ab lowcoef=65 rank=67 inter=0 guid=69 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':53, 'coefPosMax':67, 'coefValue':[3, 3, 1, 3, 2, 1, 1, 1, 0, 3, 0, 0, 1, 1, 2], 'data':'\x48\x32\x99\x99\x99\x99' }
+msg-size=59
+GEN 140 nodeid=0xc0ab lowcoef=66 rank=68 inter=0 guid=70 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':54, 'coefPosMax':68, 'coefValue':[3, 3, 1, 0, 0, 3, 3, 2, 0, 3, 2, 3, 3, 3, 3], 'data':'\xeb\x9e\x85\x85\x85\x85' }
+msg-size=59
+DECODED 142 nodeid=0xc0ab pos=69 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':69, 'coefPosMax':69, 'coefValue':[1], 'data':'\xf7\x9e\x45\x45\x45\x45' }
+GEN 142 nodeid=0xc0ab lowcoef=66 rank=69 inter=0 guid=71 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':55, 'coefPosMax':69, 'coefValue':[0, 1, 3, 3, 3, 3, 3, 1, 3, 2, 3, 3, 0, 2, 2], 'data':'\x09\xe6\x8b\x8b\x8b\x8b' }
+msg-size=59
+DECODED 144 nodeid=0xc0ab pos=70 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':70, 'coefPosMax':70, 'coefValue':[1], 'data':'\x47\x2b\x46\x46\x46\x46' }
+GEN 144 nodeid=0xc0ab lowcoef=66 rank=70 inter=0 guid=72 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':56, 'coefPosMax':70, 'coefValue':[2, 1, 1, 2, 0, 1, 3, 1, 1, 0, 2, 1, 3, 1, 3], 'data':'\xb4\x24\xed\xed\xed\xed' }
+msg-size=59
+DECODED 146 nodeid=0xc0ab pos=71 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':71, 'coefPosMax':71, 'coefValue':[1], 'data':'\xd7\x47\x47\x47\x47\x47' }
+GEN 146 nodeid=0xc0ab lowcoef=66 rank=71 inter=0 guid=73 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':57, 'coefPosMax':71, 'coefValue':[2, 2, 1, 3, 1, 2, 1, 0, 1, 2, 1, 3, 2, 3, 1], 'data':'\x85\x8a\x4a\x4a\x4a\x4a' }
+msg-size=59
+DECODED 148 nodeid=0xc0ab pos=72 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':72, 'coefPosMax':72, 'coefValue':[1], 'data':'\xa1\xa4\x48\x48\x48\x48' }
+GEN 148 nodeid=0xc0ab lowcoef=66 rank=72 inter=0 guid=74 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':58, 'coefPosMax':72, 'coefValue':[3, 2, 2, 2, 3, 1, 1, 0, 0, 2, 3, 3, 0, 0, 2], 'data':'\x36\x04\x62\x62\x62\x62' }
+msg-size=59
+DECODED 150 nodeid=0xc0ab pos=66 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':66, 'coefPosMax':66, 'coefValue':[1], 'data':'\x04\xd9\x42\x42\x42\x42' }
+DECODED 150 nodeid=0xc0ab pos=67 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':67, 'coefPosMax':67, 'coefValue':[1], 'data':'\x94\xb5\x43\x43\x43\x43' }
+DECODED 150 nodeid=0xc0ab pos=68 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':68, 'coefPosMax':68, 'coefValue':[1], 'data':'\x67\xf2\x44\x44\x44\x44' }
+GEN 150 nodeid=0xc0ab lowcoef=66 rank=73 inter=0 guid=75 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':59, 'coefPosMax':73, 'coefValue':[3, 0, 1, 2, 1, 3, 2, 2, 1, 0, 1, 1, 1, 0, 0], 'data':'\x50\x8d\xf5\xf5\xf5\xf5' }
+msg-size=59
+DECODED 152 nodeid=0xc0ab pos=73 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':73, 'coefPosMax':73, 'coefValue':[1], 'data':'\x31\xc8\x49\x49\x49\x49' }
+GEN 152 nodeid=0xc0ab lowcoef=72 rank=74 inter=0 guid=76 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':60, 'coefPosMax':74, 'coefValue':[2, 1, 3, 1, 0, 0, 2, 1, 0, 1, 3, 0, 3, 2, 0], 'data':'\x09\x44\x3d\x3d\x3d\x3d' }
+msg-size=59
+DECODED 154 nodeid=0xc0ab pos=75 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':75, 'coefPosMax':75, 'coefValue':[1], 'data':'\x11\x11\x4b\x4b\x4b\x4b' }
+GEN 154 nodeid=0xc0ab lowcoef=73 rank=75 inter=0 guid=77 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':61, 'coefPosMax':75, 'coefValue':[3, 3, 1, 1, 1, 1, 2, 2, 0, 3, 0, 2, 3, 0, 3], 'data':'\xe4\xd6\x37\x37\x37\x37' }
+msg-size=59
+DECODED 156 nodeid=0xc0ab pos=76 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':76, 'coefPosMax':76, 'coefValue':[1], 'data':'\xe2\x56\x4c\x4c\x4c\x4c' }
+GEN 156 nodeid=0xc0ab lowcoef=74 rank=76 inter=0 guid=78 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':62, 'coefPosMax':76, 'coefValue':[3, 2, 0, 2, 3, 0, 0, 1, 1, 2, 1, 0, 0, 1, 3], 'data':'\x31\x73\x3e\x3e\x3e\x3e' }
+msg-size=59
+GEN 158 nodeid=0xc0ab lowcoef=74 rank=77 inter=0 guid=79 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':63, 'coefPosMax':77, 'coefValue':[2, 2, 3, 1, 2, 1, 0, 2, 0, 3, 1, 3, 1, 0, 1], 'data':'\xa2\x24\x14\x14\x14\x14' }
+msg-size=59
+DECODED 160 nodeid=0xc0ab pos=78 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':78, 'coefPosMax':78, 'coefValue':[1], 'data':'\xc2\x8f\x4e\x4e\x4e\x4e' }
+GEN 160 nodeid=0xc0ab lowcoef=74 rank=78 inter=0 guid=80 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':64, 'coefPosMax':78, 'coefValue':[2, 0, 2, 1, 3, 2, 3, 0, 2, 3, 0, 2, 2, 0, 2], 'data':'\x2e\xbb\x0e\x0e\x0e\x0e' }
+msg-size=59
+GEN 162 nodeid=0xc0ab lowcoef=74 rank=79 inter=0 guid=81 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':65, 'coefPosMax':79, 'coefValue':[2, 1, 3, 2, 0, 3, 3, 3, 2, 2, 1, 1, 1, 1, 2], 'data':'\x0a\x8c\xcd\xcd\xcd\xcd' }
+msg-size=59
+DECODED 164 nodeid=0xc0ab pos=80 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':80, 'coefPosMax':80, 'coefValue':[1], 'data':'\x2d\x09\x50\x50\x50\x50' }
+GEN 164 nodeid=0xc0ab lowcoef=74 rank=80 inter=0 guid=82 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':66, 'coefPosMax':80, 'coefValue':[1, 3, 2, 3, 3, 3, 2, 2, 1, 2, 0, 0, 2, 2, 2], 'data':'\x8a\x15\xa3\xa3\xa3\xa3' }
+msg-size=59
+GEN 166 nodeid=0xc0ab lowcoef=74 rank=81 inter=0 guid=83 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':67, 'coefPosMax':81, 'coefValue':[2, 2, 2, 0, 2, 1, 3, 1, 3, 3, 2, 2, 1, 3, 2], 'data':'\x8f\xf0\xdd\xdd\xdd\xdd' }
+msg-size=59
+GEN 168 nodeid=0xc0ab lowcoef=74 rank=82 inter=0 guid=84 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':68, 'coefPosMax':82, 'coefValue':[1, 1, 3, 0, 0, 1, 2, 1, 0, 0, 0, 2, 1, 0, 2], 'data':'\x34\x2d\x37\x37\x37\x37' }
+msg-size=59
+DECODED 170 nodeid=0xc0ab pos=74 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':74, 'coefPosMax':74, 'coefValue':[1], 'data':'\x81\x7d\x4a\x4a\x4a\x4a' }
+DECODED 170 nodeid=0xc0ab pos=77 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':77, 'coefPosMax':77, 'coefValue':[1], 'data':'\x72\x3a\x4d\x4d\x4d\x4d' }
+DECODED 170 nodeid=0xc0ab pos=79 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':79, 'coefPosMax':79, 'coefValue':[1], 'data':'\x52\xe3\x4f\x4f\x4f\x4f' }
+DECODED 170 nodeid=0xc0ab pos=81 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':81, 'coefPosMax':81, 'coefValue':[1], 'data':'\xbd\x65\x51\x51\x51\x51' }
+DECODED 170 nodeid=0xc0ab pos=82 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':82, 'coefPosMax':82, 'coefValue':[1], 'data':'\x0d\xd0\x52\x52\x52\x52' }
+GEN 170 nodeid=0xc0ab lowcoef=74 rank=83 inter=0 guid=85 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':69, 'coefPosMax':83, 'coefValue':[0, 3, 0, 0, 2, 0, 2, 1, 0, 1, 2, 1, 0, 2, 0], 'data':'\x56\xb9\xba\xba\xba\xba' }
+msg-size=59
+GEN 172 nodeid=0xc0ab lowcoef=82 rank=84 inter=0 guid=86 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':70, 'coefPosMax':84, 'coefValue':[2, 3, 2, 2, 2, 2, 1, 0, 1, 2, 2, 0, 0, 3, 2], 'data':'\x4e\x60\x38\x38\x38\x38' }
+msg-size=59
+DECODED 174 nodeid=0xc0ab pos=85 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':85, 'coefPosMax':85, 'coefValue':[1], 'data':'\xfe\x97\x55\x55\x55\x55' }
+GEN 174 nodeid=0xc0ab lowcoef=83 rank=85 inter=0 guid=87 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':71, 'coefPosMax':85, 'coefValue':[3, 2, 3, 0, 3, 2, 0, 2, 2, 1, 0, 0, 1, 3, 2], 'data':'\xf1\x64\x90\x90\x90\x90' }
+msg-size=59
+DECODED 176 nodeid=0xc0ab pos=86 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':86, 'coefPosMax':86, 'coefValue':[1], 'data':'\x4e\x22\x56\x56\x56\x56' }
+GEN 176 nodeid=0xc0ab lowcoef=83 rank=86 inter=0 guid=88 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':72, 'coefPosMax':86, 'coefValue':[2, 0, 0, 1, 3, 2, 3, 0, 3, 2, 2, 2, 1, 0, 2], 'data':'\xa4\x80\xef\xef\xef\xef' }
+msg-size=59
+GEN 178 nodeid=0xc0ab lowcoef=83 rank=87 inter=0 guid=89 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':73, 'coefPosMax':87, 'coefValue':[3, 0, 0, 2, 2, 3, 0, 0, 2, 2, 2, 0, 0, 2, 1], 'data':'\x2d\x09\x50\x50\x50\x50' }
+msg-size=59
+DECODED 180 nodeid=0xc0ab pos=88 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':88, 'coefPosMax':88, 'coefValue':[1], 'data':'\xa8\xad\x58\x58\x58\x58' }
+GEN 180 nodeid=0xc0ab lowcoef=83 rank=88 inter=0 guid=90 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':74, 'coefPosMax':88, 'coefValue':[1, 0, 1, 3, 0, 3, 1, 1, 2, 2, 0, 1, 2, 1, 3], 'data':'\xf0\xf5\x59\x59\x59\x59' }
+msg-size=59
+GEN 182 nodeid=0xc0ab lowcoef=83 rank=88 inter=0 guid=91 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':75, 'coefPosMax':89, 'coefValue':[1, 3, 1, 3, 1, 3, 2, 0, 0, 2, 3, 1, 2, 2, 0], 'data':'\x27\xb2\x1e\x1e\x1e\x1e' }
+msg-size=59
+GEN 184 nodeid=0xc0ab lowcoef=83 rank=89 inter=0 guid=92 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':76, 'coefPosMax':90, 'coefValue':[3, 3, 2, 1, 0, 1, 1, 2, 1, 0, 3, 0, 2, 2, 3], 'data':'\x34\x2d\x37\x37\x37\x37' }
+msg-size=59
+GEN 186 nodeid=0xc0ab lowcoef=83 rank=90 inter=0 guid=93 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':77, 'coefPosMax':91, 'coefValue':[3, 0, 3, 3, 0, 2, 0, 0, 2, 2, 1, 1, 0, 1, 2], 'data':'\x0f\xb1\xab\xab\xab\xab' }
+msg-size=59
+GEN 188 nodeid=0xc0ab lowcoef=83 rank=91 inter=0 guid=94 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':78, 'coefPosMax':92, 'coefValue':[1, 0, 2, 2, 3, 3, 1, 0, 1, 2, 0, 1, 3, 1, 3], 'data':'\xe7\x72\xeb\xeb\xeb\xeb' }
+msg-size=59
+GEN 190 nodeid=0xc0ab lowcoef=83 rank=92 inter=0 guid=95 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':79, 'coefPosMax':93, 'coefValue':[0, 0, 0, 3, 1, 3, 2, 0, 3, 1, 3, 1, 2, 1, 0], 'data':'\x62\xa3\x0e\x0e\x0e\x0e' }
+msg-size=59
+GEN 192 nodeid=0xc0ab lowcoef=83 rank=93 inter=0 guid=96 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':80, 'coefPosMax':94, 'coefValue':[2, 0, 0, 3, 3, 3, 0, 3, 1, 3, 2, 1, 0, 0, 2], 'data':'\x91\x12\x53\x53\x53\x53' }
+msg-size=59
+GEN 194 nodeid=0xc0ab lowcoef=83 rank=94 inter=0 guid=97 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':81, 'coefPosMax':95, 'coefValue':[1, 1, 2, 0, 0, 2, 1, 0, 2, 3, 0, 2, 3, 1, 2], 'data':'\xaa\xcc\xa1\xa1\xa1\xa1' }
+msg-size=59
+GEN 196 nodeid=0xc0ab lowcoef=83 rank=95 inter=0 guid=98 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':82, 'coefPosMax':96, 'coefValue':[2, 3, 3, 2, 0, 0, 1, 1, 1, 1, 0, 0, 3, 1, 3], 'data':'\x03\xd1\x71\x71\x71\x71' }
+msg-size=59
+GEN 198 nodeid=0xc0ab lowcoef=83 rank=96 inter=0 guid=99 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':83, 'coefPosMax':97, 'coefValue':[0, 2, 3, 0, 3, 2, 3, 2, 1, 3, 2, 2, 1, 0, 1], 'data':'\x10\xab\xc1\xc1\xc1\xc1' }
+msg-size=59
+DECODED 200 nodeid=0xc0ab pos=95 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':95, 'coefPosMax':95, 'coefValue':[1], 'data':'\x5b\xea\x5f\x5f\x5f\x5f' }
+DECODED 200 nodeid=0xc0ab pos=96 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':96, 'coefPosMax':96, 'coefValue':[1], 'data':'\x36\x12\x60\x60\x60\x60' }
+GEN 200 nodeid=0xc0ab lowcoef=83 rank=97 inter=0 guid=100 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':83, 'coefPosMax':97, 'coefValue':[3, 3, 0, 0, 1, 3, 3, 3, 2, 1, 2, 3, 2, 0, 1], 'data':'\x9f\x9a\xc5\xc5\xc5\xc5' }
+msg-size=59
+DECODED 202 nodeid=0xc0ab pos=83 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':83, 'coefPosMax':83, 'coefValue':[1], 'data':'\x9d\xbc\x53\x53\x53\x53' }
+DECODED 202 nodeid=0xc0ab pos=84 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':84, 'coefPosMax':84, 'coefValue':[1], 'data':'\x6e\xfb\x54\x54\x54\x54' }
+DECODED 202 nodeid=0xc0ab pos=87 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':87, 'coefPosMax':87, 'coefValue':[1], 'data':'\xde\x4e\x57\x57\x57\x57' }
+DECODED 202 nodeid=0xc0ab pos=89 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':89, 'coefPosMax':89, 'coefValue':[1], 'data':'\x38\xc1\x59\x59\x59\x59' }
+DECODED 202 nodeid=0xc0ab pos=90 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':90, 'coefPosMax':90, 'coefValue':[1], 'data':'\x88\x74\x5a\x5a\x5a\x5a' }
+DECODED 202 nodeid=0xc0ab pos=91 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':91, 'coefPosMax':91, 'coefValue':[1], 'data':'\x18\x18\x5b\x5b\x5b\x5b' }
+DECODED 202 nodeid=0xc0ab pos=92 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':92, 'coefPosMax':92, 'coefValue':[1], 'data':'\xeb\x5f\x5c\x5c\x5c\x5c' }
+DECODED 202 nodeid=0xc0ab pos=93 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':93, 'coefPosMax':93, 'coefValue':[1], 'data':'\x7b\x33\x5d\x5d\x5d\x5d' }
+DECODED 202 nodeid=0xc0ab pos=94 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':94, 'coefPosMax':94, 'coefValue':[1], 'data':'\xcb\x86\x5e\x5e\x5e\x5e' }
+DECODED 202 nodeid=0xc0ab pos=97 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':97, 'coefPosMax':97, 'coefValue':[1], 'data':'\xa6\x7e\x61\x61\x61\x61' }
+GEN 202 nodeid=0xc0ab lowcoef=83 rank=98 inter=0 guid=101 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':83, 'coefPosMax':97, 'coefValue':[0, 1, 3, 0, 3, 2, 3, 2, 1, 3, 2, 2, 1, 1, 1], 'data':'\xff\x1f\x5d\x5d\x5d\x5d' }
+msg-size=59
+DECODED 204 nodeid=0xc0ab pos=98 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':98, 'coefPosMax':98, 'coefValue':[1], 'data':'\x16\xcb\x62\x62\x62\x62' }
+GEN 204 nodeid=0xc0ab lowcoef=97 rank=99 inter=0 guid=102 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':84, 'coefPosMax':98, 'coefValue':[1, 0, 2, 1, 3, 1, 3, 0, 2, 3, 0, 2, 1, 0, 1], 'data':'\x09\xd1\x08\x08\x08\x08' }
+msg-size=59
+GEN 206 nodeid=0xc0ab lowcoef=98 rank=99 inter=0 guid=103 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':85, 'coefPosMax':99, 'coefValue':[1, 3, 0, 1, 1, 1, 1, 1, 0, 0, 1, 2, 3, 3, 0], 'data':'\xfc\x7f\x19\x19\x19\x19' }
+msg-size=59
+GEN 208 nodeid=0xc0ab lowcoef=98 rank=100 inter=0 guid=104 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':86, 'coefPosMax':100, 'coefValue':[0, 1, 3, 2, 0, 3, 2, 3, 1, 3, 1, 0, 2, 1, 3], 'data':'\x70\x9f\x6c\x6c\x6c\x6c' }
+msg-size=59
+GEN 210 nodeid=0xc0ab lowcoef=99 rank=101 inter=0 guid=105 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':87, 'coefPosMax':101, 'coefValue':[1, 1, 2, 2, 1, 1, 0, 1, 1, 2, 3, 0, 3, 3, 2], 'data':'\x5b\xd2\xdf\xdf\xdf\xdf' }
+msg-size=59
+GEN 212 nodeid=0xc0ab lowcoef=99 rank=102 inter=0 guid=106 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':88, 'coefPosMax':102, 'coefValue':[1, 2, 0, 3, 2, 3, 1, 3, 1, 0, 1, 2, 0, 1, 3], 'data':'\xd7\xc4\xf0\xf0\xf0\xf0' }
+msg-size=59
+GEN 214 nodeid=0xc0ab lowcoef=99 rank=103 inter=0 guid=107 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':89, 'coefPosMax':103, 'coefValue':[0, 3, 0, 2, 2, 1, 2, 1, 1, 1, 1, 0, 0, 3, 3], 'data':'\xb2\x79\x0f\x0f\x0f\x0f' }
+msg-size=59
+GEN 216 nodeid=0xc0ab lowcoef=99 rank=104 inter=0 guid=108 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':90, 'coefPosMax':104, 'coefValue':[3, 3, 1, 3, 0, 3, 3, 0, 2, 0, 0, 2, 3, 0, 2], 'data':'\xd9\x74\xe6\xe6\xe6\xe6' }
+msg-size=59
+GEN 218 nodeid=0xc0ab lowcoef=99 rank=104 inter=0 guid=109 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':91, 'coefPosMax':105, 'coefValue':[0, 2, 3, 0, 0, 3, 2, 3, 0, 0, 1, 1, 1, 1, 0], 'data':'\xb6\xf1\xe0\xe0\xe0\xe0' }
+msg-size=59
+GEN 220 nodeid=0xc0ab lowcoef=99 rank=105 inter=0 guid=110 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':92, 'coefPosMax':106, 'coefValue':[3, 1, 1, 2, 1, 0, 0, 2, 2, 3, 3, 0, 3, 2, 2], 'data':'\x3e\x73\xe0\xe0\xe0\xe0' }
+msg-size=59
+GEN 222 nodeid=0xc0ab lowcoef=99 rank=106 inter=0 guid=111 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':93, 'coefPosMax':107, 'coefValue':[0, 0, 3, 2, 3, 1, 2, 1, 0, 2, 1, 3, 1, 3, 0], 'data':'\x44\xab\x9a\x9a\x9a\x9a' }
+msg-size=59
+GEN 224 nodeid=0xc0ab lowcoef=99 rank=107 inter=0 guid=112 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':94, 'coefPosMax':108, 'coefValue':[3, 2, 2, 0, 1, 3, 3, 2, 3, 0, 0, 1, 2, 1, 1], 'data':'\x30\xdf\x36\x36\x36\x36' }
+msg-size=59
+GEN 226 nodeid=0xc0ab lowcoef=99 rank=108 inter=0 guid=113 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':95, 'coefPosMax':109, 'coefValue':[2, 3, 3, 0, 0, 2, 2, 1, 0, 1, 0, 2, 2, 0, 1], 'data':'\x5b\x00\xc5\xc5\xc5\xc5' }
+msg-size=59
+GEN 228 nodeid=0xc0ab lowcoef=99 rank=109 inter=0 guid=114 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':96, 'coefPosMax':110, 'coefValue':[3, 1, 1, 1, 1, 0, 0, 3, 2, 3, 3, 0, 2, 3, 1], 'data':'\x00\x89\xb5\xb5\xb5\xb5' }
+msg-size=59
+GEN 230 nodeid=0xc0ab lowcoef=99 rank=110 inter=0 guid=115 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':97, 'coefPosMax':111, 'coefValue':[2, 2, 1, 0, 1, 3, 0, 2, 2, 0, 3, 2, 3, 1, 3], 'data':'\x3e\xc2\xd5\xd5\xd5\xd5' }
+msg-size=59
+GEN 232 nodeid=0xc0ab lowcoef=99 rank=111 inter=0 guid=116 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':98, 'coefPosMax':112, 'coefValue':[1, 0, 0, 2, 3, 0, 2, 0, 1, 2, 2, 3, 0, 0, 2], 'data':'\x45\x2c\x91\x91\x91\x91' }
+msg-size=59
+GEN 234 nodeid=0xc0ab lowcoef=99 rank=111 inter=0 guid=117 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':99, 'coefPosMax':113, 'coefValue':[1, 1, 1, 1, 1, 1, 1, 3, 1, 3, 2, 0, 2, 1, 0], 'data':'\xc8\xab\x77\x77\x77\x77' }
+msg-size=59
+DECODED 236 nodeid=0xc0ab pos=99 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':99, 'coefPosMax':99, 'coefValue':[1], 'data':'\x86\xa7\x63\x63\x63\x63' }
+DECODED 236 nodeid=0xc0ab pos=100 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':100, 'coefPosMax':100, 'coefValue':[1], 'data':'\x75\xe0\x64\x64\x64\x64' }
+DECODED 236 nodeid=0xc0ab pos=101 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':101, 'coefPosMax':101, 'coefValue':[1], 'data':'\xe5\x8c\x65\x65\x65\x65' }
+DECODED 236 nodeid=0xc0ab pos=102 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':102, 'coefPosMax':102, 'coefValue':[1], 'data':'\x55\x39\x66\x66\x66\x66' }
+DECODED 236 nodeid=0xc0ab pos=103 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':103, 'coefPosMax':103, 'coefValue':[1], 'data':'\xc5\x55\x67\x67\x67\x67' }
+DECODED 236 nodeid=0xc0ab pos=104 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':104, 'coefPosMax':104, 'coefValue':[1], 'data':'\xb3\xb6\x68\x68\x68\x68' }
+DECODED 236 nodeid=0xc0ab pos=105 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':105, 'coefPosMax':105, 'coefValue':[1], 'data':'\x23\xda\x69\x69\x69\x69' }
+DECODED 236 nodeid=0xc0ab pos=106 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':106, 'coefPosMax':106, 'coefValue':[1], 'data':'\x93\x6f\x6a\x6a\x6a\x6a' }
+GEN 236 nodeid=0xc0ab lowcoef=99 rank=112 inter=0 guid=118 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':99, 'coefPosMax':113, 'coefValue':[1, 2, 1, 1, 3, 3, 0, 0, 0, 3, 0, 2, 0, 3, 0], 'data':'\xab\xec\x5d\x5d\x5d\x5d' }
+msg-size=59
+GEN 238 nodeid=0xc0ab lowcoef=107 rank=113 inter=0 guid=119 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':100, 'coefPosMax':114, 'coefValue':[2, 2, 0, 1, 3, 2, 2, 3, 3, 1, 1, 1, 3, 3, 0], 'data':'\xb5\x04\xd1\xd1\xd1\xd1' }
+msg-size=59
+GEN 240 nodeid=0xc0ab lowcoef=107 rank=114 inter=0 guid=120 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':101, 'coefPosMax':115, 'coefValue':[1, 1, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 3, 0, 2], 'data':'\x7f\xea\x1f\x1f\x1f\x1f' }
+msg-size=59
+DECODED 242 nodeid=0xc0ab pos=114 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':114, 'coefPosMax':114, 'coefValue':[1], 'data':'\x1f\xc2\x72\x72\x72\x72' }
+GEN 242 nodeid=0xc0ab lowcoef=107 rank=115 inter=0 guid=121 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':102, 'coefPosMax':116, 'coefValue':[0, 1, 3, 0, 2, 0, 3, 0, 0, 0, 3, 3, 3, 2, 0], 'data':'\x69\xef\xa7\xa7\xa7\xa7' }
+msg-size=59
+GEN 244 nodeid=0xc0ab lowcoef=107 rank=116 inter=0 guid=122 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':103, 'coefPosMax':117, 'coefValue':[3, 1, 2, 0, 1, 1, 2, 2, 2, 1, 2, 1, 0, 1, 1], 'data':'\xeb\xc5\x2a\x2a\x2a\x2a' }
+msg-size=59
+GEN 246 nodeid=0xc0ab lowcoef=107 rank=117 inter=0 guid=123 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':104, 'coefPosMax':118, 'coefValue':[1, 0, 2, 3, 0, 0, 0, 0, 2, 0, 3, 2, 3, 0, 1], 'data':'\x0e\xfd\x7b\x7b\x7b\x7b' }
+msg-size=59
+GEN 248 nodeid=0xc0ab lowcoef=107 rank=118 inter=0 guid=124 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':105, 'coefPosMax':119, 'coefValue':[2, 2, 3, 0, 3, 0, 1, 2, 2, 2, 2, 3, 0, 2, 0], 'data':'\x0e\xba\x14\x14\x14\x14' }
+msg-size=59
+GEN 250 nodeid=0xc0ab lowcoef=107 rank=119 inter=0 guid=125 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':106, 'coefPosMax':120, 'coefValue':[2, 0, 0, 3, 3, 0, 2, 1, 2, 3, 2, 0, 2, 3, 2], 'data':'\x33\xd9\x5c\x5c\x5c\x5c' }
+msg-size=59
+GEN 252 nodeid=0xc0ab lowcoef=107 rank=119 inter=0 guid=126 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':107, 'coefPosMax':121, 'coefValue':[2, 3, 0, 2, 0, 3, 0, 3, 2, 0, 1, 1, 0, 0, 0], 'data':'\xa4\xde\x41\x41\x41\x41' }
+msg-size=59
+DECODED 254 nodeid=0xc0ab pos=121 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':121, 'coefPosMax':121, 'coefValue':[1], 'data':'\x2a\xd3\x79\x79\x79\x79' }
+GEN 254 nodeid=0xc0ab lowcoef=107 rank=120 inter=0 guid=127 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':107, 'coefPosMax':121, 'coefValue':[3, 0, 1, 1, 1, 0, 1, 0, 3, 0, 0, 2, 1, 3, 1], 'data':'\x30\x9d\x58\x58\x58\x58' }
+msg-size=59
+DECODED 256 nodeid=0xc0ab pos=120 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':120, 'coefPosMax':120, 'coefValue':[1], 'data':'\xba\xbf\x78\x78\x78\x78' }
+GEN 256 nodeid=0xc0ab lowcoef=107 rank=121 inter=0 guid=128 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':107, 'coefPosMax':121, 'coefValue':[3, 0, 3, 3, 3, 2, 1, 2, 3, 2, 0, 2, 3, 1, 2], 'data':'\x4a\xc6\x95\x95\x95\x95' }
+msg-size=59
+DECODED 258 nodeid=0xc0ab pos=107 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':107, 'coefPosMax':107, 'coefValue':[1], 'data':'\x03\x03\x6b\x6b\x6b\x6b' }
+DECODED 258 nodeid=0xc0ab pos=108 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':108, 'coefPosMax':108, 'coefValue':[1], 'data':'\xf0\x44\x6c\x6c\x6c\x6c' }
+DECODED 258 nodeid=0xc0ab pos=109 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':109, 'coefPosMax':109, 'coefValue':[1], 'data':'\x60\x28\x6d\x6d\x6d\x6d' }
+DECODED 258 nodeid=0xc0ab pos=110 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':110, 'coefPosMax':110, 'coefValue':[1], 'data':'\xd0\x9d\x6e\x6e\x6e\x6e' }
+DECODED 258 nodeid=0xc0ab pos=111 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':111, 'coefPosMax':111, 'coefValue':[1], 'data':'\x40\xf1\x6f\x6f\x6f\x6f' }
+DECODED 258 nodeid=0xc0ab pos=112 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':112, 'coefPosMax':112, 'coefValue':[1], 'data':'\x3f\x1b\x70\x70\x70\x70' }
+DECODED 258 nodeid=0xc0ab pos=113 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':113, 'coefPosMax':113, 'coefValue':[1], 'data':'\xaf\x77\x71\x71\x71\x71' }
+DECODED 258 nodeid=0xc0ab pos=115 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':115, 'coefPosMax':115, 'coefValue':[1], 'data':'\x8f\xae\x73\x73\x73\x73' }
+DECODED 258 nodeid=0xc0ab pos=116 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':116, 'coefPosMax':116, 'coefValue':[1], 'data':'\x7c\xe9\x74\x74\x74\x74' }
+DECODED 258 nodeid=0xc0ab pos=117 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':117, 'coefPosMax':117, 'coefValue':[1], 'data':'\xec\x85\x75\x75\x75\x75' }
+DECODED 258 nodeid=0xc0ab pos=118 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':118, 'coefPosMax':118, 'coefValue':[1], 'data':'\x5c\x30\x76\x76\x76\x76' }
+DECODED 258 nodeid=0xc0ab pos=119 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':119, 'coefPosMax':119, 'coefValue':[1], 'data':'\xcc\x5c\x77\x77\x77\x77' }
+GEN 258 nodeid=0xc0ab lowcoef=107 rank=122 inter=0 guid=129 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':107, 'coefPosMax':121, 'coefValue':[2, 3, 2, 0, 2, 2, 0, 1, 2, 0, 0, 2, 1, 2, 0], 'data':'\xe9\x22\x65\x65\x65\x65' }
+msg-size=59
+GEN 260 nodeid=0xc0ab lowcoef=121 rank=122 inter=0 guid=130 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':108, 'coefPosMax':122, 'coefValue':[2, 2, 3, 1, 1, 0, 1, 3, 1, 1, 2, 1, 1, 0, 0], 'data':'\x38\x21\xc1\xc1\xc1\xc1' }
+msg-size=59
+GEN 262 nodeid=0xc0ab lowcoef=121 rank=123 inter=0 guid=131 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':109, 'coefPosMax':123, 'coefValue':[1, 3, 3, 2, 3, 2, 1, 3, 2, 0, 3, 2, 2, 2, 2], 'data':'\xe1\x7b\x65\x65\x65\x65' }
+msg-size=59
+GEN 264 nodeid=0xc0ab lowcoef=122 rank=124 inter=0 guid=132 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':110, 'coefPosMax':124, 'coefValue':[3, 2, 0, 0, 1, 2, 2, 0, 0, 3, 0, 1, 2, 1, 3], 'data':'\x9e\x33\x8c\x8c\x8c\x8c' }
+msg-size=59
+DECODED 266 nodeid=0xc0ab pos=125 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':125, 'coefPosMax':125, 'coefValue':[1], 'data':'\x69\x21\x7d\x7d\x7d\x7d' }
+GEN 266 nodeid=0xc0ab lowcoef=122 rank=125 inter=0 guid=133 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':111, 'coefPosMax':125, 'coefValue':[2, 2, 3, 3, 0, 3, 2, 3, 0, 2, 2, 2, 3, 1, 1], 'data':'\x0b\x0b\xc6\xc6\xc6\xc6' }
+msg-size=59
+GEN 268 nodeid=0xc0ab lowcoef=122 rank=126 inter=0 guid=134 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':112, 'coefPosMax':126, 'coefValue':[2, 0, 1, 3, 1, 0, 2, 1, 1, 0, 0, 3, 2, 3, 2], 'data':'\x0c\xd4\xee\xee\xee\xee' }
+msg-size=59
+GEN 270 nodeid=0xc0ab lowcoef=122 rank=127 inter=0 guid=135 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':113, 'coefPosMax':127, 'coefValue':[3, 1, 2, 1, 0, 2, 1, 2, 0, 0, 3, 3, 3, 2, 1], 'data':'\x19\x66\x09\x09\x09\x09' }
+msg-size=59
+GEN 272 nodeid=0xc0ab lowcoef=122 rank=128 inter=0 guid=136 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':114, 'coefPosMax':128, 'coefValue':[3, 1, 1, 1, 1, 2, 1, 0, 1, 2, 0, 1, 1, 2, 2], 'data':'\xa0\x5c\xb5\xb5\xb5\xb5' }
+msg-size=59
+GEN 274 nodeid=0xc0ab lowcoef=122 rank=129 inter=0 guid=137 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':115, 'coefPosMax':129, 'coefValue':[1, 0, 1, 2, 1, 3, 3, 3, 0, 2, 2, 2, 0, 3, 1], 'data':'\x9c\xe6\x58\x58\x58\x58' }
+msg-size=59
+GEN 276 nodeid=0xc0ab lowcoef=122 rank=130 inter=0 guid=138 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':116, 'coefPosMax':130, 'coefValue':[0, 3, 1, 3, 0, 1, 1, 2, 0, 0, 1, 2, 1, 3, 3], 'data':'\x8c\xf6\x80\x80\x80\x80' }
+msg-size=59
+GEN 278 nodeid=0xc0ab lowcoef=122 rank=131 inter=0 guid=139 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':117, 'coefPosMax':131, 'coefValue':[0, 2, 0, 3, 2, 0, 3, 1, 3, 2, 1, 1, 1, 2, 1], 'data':'\x26\x3f\x39\x39\x39\x39' }
+msg-size=59
+DECODED 280 nodeid=0xc0ab pos=132 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':132, 'coefPosMax':132, 'coefValue':[1], 'data':'\x0b\x9e\x84\x84\x84\x84' }
+GEN 280 nodeid=0xc0ab lowcoef=122 rank=132 inter=0 guid=140 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':118, 'coefPosMax':132, 'coefValue':[1, 3, 3, 0, 2, 0, 0, 2, 3, 3, 3, 3, 0, 3, 1], 'data':'\x4f\x02\xb3\xb3\xb3\xb3' }
+msg-size=59
+GEN 282 nodeid=0xc0ab lowcoef=122 rank=133 inter=0 guid=141 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':119, 'coefPosMax':133, 'coefValue':[2, 3, 1, 2, 0, 0, 2, 0, 0, 3, 3, 1, 3, 2, 3], 'data':'\x9d\x08\x49\x49\x49\x49' }
+msg-size=59
+DECODED 284 nodeid=0xc0ab pos=122 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':122, 'coefPosMax':122, 'coefValue':[1], 'data':'\x9a\x66\x7a\x7a\x7a\x7a' }
+DECODED 284 nodeid=0xc0ab pos=123 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':123, 'coefPosMax':123, 'coefValue':[1], 'data':'\x0a\x0a\x7b\x7b\x7b\x7b' }
+DECODED 284 nodeid=0xc0ab pos=124 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':124, 'coefPosMax':124, 'coefValue':[1], 'data':'\xf9\x4d\x7c\x7c\x7c\x7c' }
+DECODED 284 nodeid=0xc0ab pos=126 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':126, 'coefPosMax':126, 'coefValue':[1], 'data':'\xd9\x94\x7e\x7e\x7e\x7e' }
+DECODED 284 nodeid=0xc0ab pos=127 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':127, 'coefPosMax':127, 'coefValue':[1], 'data':'\x49\xf8\x7f\x7f\x7f\x7f' }
+DECODED 284 nodeid=0xc0ab pos=128 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':128, 'coefPosMax':128, 'coefValue':[1], 'data':'\x48\x6c\x80\x80\x80\x80' }
+DECODED 284 nodeid=0xc0ab pos=129 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':129, 'coefPosMax':129, 'coefValue':[1], 'data':'\xd8\x00\x81\x81\x81\x81' }
+DECODED 284 nodeid=0xc0ab pos=130 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':130, 'coefPosMax':130, 'coefValue':[1], 'data':'\x68\xb5\x82\x82\x82\x82' }
+DECODED 284 nodeid=0xc0ab pos=131 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':131, 'coefPosMax':131, 'coefValue':[1], 'data':'\xf8\xd9\x83\x83\x83\x83' }
+DECODED 284 nodeid=0xc0ab pos=133 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':133, 'coefPosMax':133, 'coefValue':[1], 'data':'\x9b\xf2\x85\x85\x85\x85' }
+GEN 284 nodeid=0xc0ab lowcoef=122 rank=134 inter=0 guid=142 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':120, 'coefPosMax':134, 'coefValue':[3, 3, 1, 2, 2, 0, 2, 2, 1, 1, 3, 0, 3, 2, 0], 'data':'\xf4\xaa\xb4\xb4\xb4\xb4' }
+msg-size=59
+GEN 286 nodeid=0xc0ab lowcoef=133 rank=134 inter=0 guid=143 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':121, 'coefPosMax':135, 'coefValue':[3, 2, 1, 3, 2, 0, 3, 3, 2, 0, 3, 1, 0, 1, 2], 'data':'\xdf\xd5\x9c\x9c\x9c\x9c' }
+msg-size=59
+GEN 288 nodeid=0xc0ab lowcoef=133 rank=134 inter=0 guid=144 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':122, 'coefPosMax':136, 'coefValue':[3, 2, 2, 3, 2, 2, 1, 1, 2, 0, 0, 1, 1, 1, 1], 'data':'\xf9\x13\xcb\xcb\xcb\xcb' }
+msg-size=59
+GEN 290 nodeid=0xc0ab lowcoef=133 rank=135 inter=0 guid=145 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':123, 'coefPosMax':137, 'coefValue':[3, 3, 3, 2, 2, 0, 2, 2, 1, 0, 1, 1, 1, 1, 0], 'data':'\x7b\x3c\x69\x69\x69\x69' }
+msg-size=59
+GEN 292 nodeid=0xc0ab lowcoef=134 rank=136 inter=0 guid=146 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':124, 'coefPosMax':138, 'coefValue':[0, 2, 2, 0, 2, 1, 1, 2, 2, 0, 0, 0, 3, 2, 0], 'data':'\x90\x2e\x41\x41\x41\x41' }
+msg-size=59
+GEN 294 nodeid=0xc0ab lowcoef=134 rank=136 inter=0 guid=147 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':125, 'coefPosMax':139, 'coefValue':[3, 0, 3, 0, 2, 3, 0, 1, 0, 2, 2, 0, 1, 2, 1], 'data':'\x15\x09\xc9\xc9\xc9\xc9' }
+msg-size=59
+GEN 296 nodeid=0xc0ab lowcoef=134 rank=136 inter=0 guid=148 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':126, 'coefPosMax':140, 'coefValue':[3, 2, 1, 1, 2, 1, 0, 1, 0, 1, 1, 0, 0, 2, 2], 'data':'\x51\xd7\xbe\xbe\xbe\xbe' }
+msg-size=59
+GEN 298 nodeid=0xc0ab lowcoef=134 rank=136 inter=0 guid=149 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':127, 'coefPosMax':141, 'coefValue':[0, 0, 1, 2, 0, 0, 1, 1, 2, 1, 0, 0, 0, 2, 3], 'data':'\x3a\x78\x8f\x8f\x8f\x8f' }
+msg-size=59
+GEN 300 nodeid=0xc0ab lowcoef=134 rank=136 inter=0 guid=150 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':128, 'coefPosMax':142, 'coefValue':[2, 2, 2, 1, 0, 1, 1, 1, 2, 0, 0, 0, 2, 3, 3], 'data':'\x4e\x15\xcc\xcc\xcc\xcc' }
+msg-size=59
+GEN 302 nodeid=0xc0ab lowcoef=134 rank=136 inter=0 guid=151 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':129, 'coefPosMax':143, 'coefValue':[1, 1, 2, 0, 0, 2, 0, 3, 2, 3, 1, 1, 3, 0, 3], 'data':'\x84\xed\xc0\xc0\xc0\xc0' }
+msg-size=59
+GEN 304 nodeid=0xc0ab lowcoef=134 rank=136 inter=0 guid=152 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':130, 'coefPosMax':144, 'coefValue':[0, 0, 2, 3, 0, 2, 1, 3, 0, 3, 3, 2, 3, 1, 3], 'data':'\xb1\x48\xff\xff\xff\xff' }
+msg-size=59
+GEN 306 nodeid=0xc0ab lowcoef=134 rank=136 inter=0 guid=153 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':131, 'coefPosMax':145, 'coefValue':[2, 2, 3, 1, 3, 1, 0, 2, 2, 0, 1, 3, 0, 2, 2], 'data':'\xe0\x75\xc2\xc2\xc2\xc2' }
+msg-size=59
+GEN 308 nodeid=0xc0ab lowcoef=134 rank=137 inter=0 guid=154 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':132, 'coefPosMax':146, 'coefValue':[3, 3, 1, 3, 1, 0, 2, 0, 3, 1, 3, 0, 2, 2, 0], 'data':'\x68\x36\x02\x02\x02\x02' }
+msg-size=59
+GEN 310 nodeid=0xc0ab lowcoef=134 rank=138 inter=0 guid=155 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':133, 'coefPosMax':147, 'coefValue':[0, 2, 1, 1, 1, 1, 1, 2, 3, 0, 3, 3, 2, 3, 0], 'data':'\x23\xb3\x6a\x6a\x6a\x6a' }
+msg-size=59
+GEN 312 nodeid=0xc0ab lowcoef=134 rank=138 inter=0 guid=156 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[0, 1, 2, 0, 0, 2, 2, 3, 2, 2, 0, 1, 3, 0, 3], 'data':'\x76\xb8\x97\x97\x97\x97' }
+msg-size=59
+GEN 314 nodeid=0xc0ab lowcoef=134 rank=139 inter=0 guid=157 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[3, 0, 1, 1, 2, 3, 1, 2, 2, 3, 3, 0, 0, 1, 0], 'data':'\x5e\xce\xe1\xe1\xe1\xe1' }
+msg-size=59
+GEN 316 nodeid=0xc0ab lowcoef=134 rank=140 inter=0 guid=158 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[0, 1, 2, 0, 1, 2, 2, 3, 2, 2, 0, 1, 3, 0, 3], 'data':'\x9b\xa9\x1d\x1d\x1d\x1d' }
+msg-size=59
+GEN 318 nodeid=0xc0ab lowcoef=134 rank=141 inter=0 guid=159 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[0, 2, 3, 0, 1, 1, 3, 3, 3, 1, 1, 2, 2, 2, 2], 'data':'\x11\x26\xd1\xd1\xd1\xd1' }
+msg-size=59
+GEN 320 nodeid=0xc0ab lowcoef=134 rank=142 inter=0 guid=160 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[1, 0, 3, 3, 0, 3, 1, 0, 1, 1, 1, 0, 0, 1, 2], 'data':'\x1d\x7e\xa5\xa5\xa5\xa5' }
+msg-size=59
+GEN 322 nodeid=0xc0ab lowcoef=134 rank=143 inter=0 guid=161 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[1, 2, 0, 3, 0, 1, 3, 0, 2, 0, 1, 1, 2, 3, 1], 'data':'\x4d\x90\x08\x08\x08\x08' }
+msg-size=59
+GEN 324 nodeid=0xc0ab lowcoef=134 rank=144 inter=0 guid=162 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[1, 0, 2, 3, 0, 2, 2, 0, 2, 2, 0, 1, 3, 1, 3], 'data':'\xd5\xa5\x09\x09\x09\x09' }
+msg-size=59
+GEN 326 nodeid=0xc0ab lowcoef=134 rank=145 inter=0 guid=163 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[2, 1, 1, 2, 3, 3, 2, 1, 1, 3, 2, 0, 0, 0, 0], 'data':'\x41\x10\x64\x64\x64\x64' }
+msg-size=59
+DECODED 328 nodeid=0xc0ab pos=143 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':143, 'coefPosMax':143, 'coefValue':[1], 'data':'\x3e\x8f\x8f\x8f\x8f\x8f' }
+GEN 328 nodeid=0xc0ab lowcoef=134 rank=146 inter=0 guid=164 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[3, 1, 1, 0, 0, 2, 2, 3, 3, 3, 0, 2, 3, 0, 0], 'data':'\xc9\xe7\x90\x90\x90\x90' }
+msg-size=59
+GEN 330 nodeid=0xc0ab lowcoef=134 rank=147 inter=0 guid=165 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[0, 0, 1, 2, 2, 3, 1, 1, 1, 3, 3, 0, 0, 1, 0], 'data':'\xd3\x33\xe9\xe9\xe9\xe9' }
+msg-size=59
+DECODED 332 nodeid=0xc0ab pos=138 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':138, 'coefPosMax':138, 'coefValue':[1], 'data':'\xed\x11\x8a\x8a\x8a\x8a' }
+GEN 332 nodeid=0xc0ab lowcoef=134 rank=148 inter=0 guid=166 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[0, 2, 0, 1, 3, 0, 3, 2, 0, 0, 2, 3, 1, 2, 1], 'data':'\x75\xd2\xff\xff\xff\xff' }
+msg-size=59
+GEN 334 nodeid=0xc0ab lowcoef=134 rank=148 inter=0 guid=167 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[2, 2, 0, 3, 1, 1, 3, 0, 2, 0, 1, 1, 2, 2, 1], 'data':'\x47\x9f\x5c\x5c\x5c\x5c' }
+msg-size=59
+GEN 336 nodeid=0xc0ab lowcoef=134 rank=148 inter=0 guid=168 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[0, 2, 0, 1, 3, 0, 3, 2, 0, 0, 2, 3, 1, 2, 1], 'data':'\x75\xd2\xff\xff\xff\xff' }
+msg-size=59
+DECODED 338 nodeid=0xc0ab pos=134 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':134, 'coefValue':[1], 'data':'\x2b\x47\x86\x86\x86\x86' }
+DECODED 338 nodeid=0xc0ab pos=135 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':135, 'coefPosMax':135, 'coefValue':[1], 'data':'\xbb\x2b\x87\x87\x87\x87' }
+DECODED 338 nodeid=0xc0ab pos=136 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':136, 'coefPosMax':136, 'coefValue':[1], 'data':'\xcd\xc8\x88\x88\x88\x88' }
+DECODED 338 nodeid=0xc0ab pos=137 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':137, 'coefPosMax':137, 'coefValue':[1], 'data':'\x5d\xa4\x89\x89\x89\x89' }
+DECODED 338 nodeid=0xc0ab pos=139 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':139, 'coefPosMax':139, 'coefValue':[1], 'data':'\x7d\x7d\x8b\x8b\x8b\x8b' }
+DECODED 338 nodeid=0xc0ab pos=140 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':140, 'coefPosMax':140, 'coefValue':[1], 'data':'\x8e\x3a\x8c\x8c\x8c\x8c' }
+DECODED 338 nodeid=0xc0ab pos=141 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':141, 'coefPosMax':141, 'coefValue':[1], 'data':'\x1e\x56\x8d\x8d\x8d\x8d' }
+DECODED 338 nodeid=0xc0ab pos=142 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':142, 'coefPosMax':142, 'coefValue':[1], 'data':'\xae\xe3\x8e\x8e\x8e\x8e' }
+DECODED 338 nodeid=0xc0ab pos=144 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':144, 'coefPosMax':144, 'coefValue':[1], 'data':'\x41\x65\x90\x90\x90\x90' }
+DECODED 338 nodeid=0xc0ab pos=145 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':145, 'coefPosMax':145, 'coefValue':[1], 'data':'\xd1\x09\x91\x91\x91\x91' }
+DECODED 338 nodeid=0xc0ab pos=146 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':146, 'coefPosMax':146, 'coefValue':[1], 'data':'\x61\xbc\x92\x92\x92\x92' }
+DECODED 338 nodeid=0xc0ab pos=147 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':147, 'coefPosMax':147, 'coefValue':[1], 'data':'\xf1\xd0\x93\x93\x93\x93' }
+DECODED 338 nodeid=0xc0ab pos=148 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':148, 'coefPosMax':148, 'coefValue':[1], 'data':'\x02\x97\x94\x94\x94\x94' }
+GEN 338 nodeid=0xc0ab lowcoef=134 rank=149 inter=0 guid=169 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':134, 'coefPosMax':148, 'coefValue':[1, 1, 0, 2, 2, 2, 2, 1, 2, 0, 2, 1, 3, 1, 1], 'data':'\x8b\x84\x44\x44\x44\x44' }
+msg-size=59
+DECODED 340 nodeid=0xc0ab pos=149 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':149, 'coefPosMax':149, 'coefValue':[1], 'data':'\x92\xfb\x95\x95\x95\x95' }
+GEN 340 nodeid=0xc0ab lowcoef=148 rank=150 inter=0 guid=170 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':135, 'coefPosMax':149, 'coefValue':[0, 3, 2, 1, 1, 3, 3, 0, 1, 1, 2, 3, 3, 2, 1], 'data':'\x31\xe6\x0b\x0b\x0b\x0b' }
+msg-size=59
+DECODED 342 nodeid=0xc0ab pos=150 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':150, 'coefPosMax':150, 'coefValue':[1], 'data':'\x22\x4e\x96\x96\x96\x96' }
+GEN 342 nodeid=0xc0ab lowcoef=149 rank=151 inter=0 guid=171 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':136, 'coefPosMax':150, 'coefValue':[0, 1, 2, 3, 1, 2, 3, 2, 3, 3, 0, 1, 3, 0, 2], 'data':'\x94\x5a\xc1\xc1\xc1\xc1' }
+msg-size=59
+DECODED 344 nodeid=0xc0ab pos=151 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':151, 'coefPosMax':151, 'coefValue':[1], 'data':'\xb2\x22\x97\x97\x97\x97' }
+GEN 344 nodeid=0xc0ab lowcoef=150 rank=152 inter=0 guid=172 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':137, 'coefPosMax':151, 'coefValue':[3, 2, 3, 1, 1, 1, 0, 3, 0, 0, 1, 0, 3, 3, 2], 'data':'\xd9\x49\x49\x49\x49\x49' }
+msg-size=59
+DECODED 346 nodeid=0xc0ab pos=152 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':152, 'coefPosMax':152, 'coefValue':[1], 'data':'\xc4\xc1\x98\x98\x98\x98' }
+GEN 346 nodeid=0xc0ab lowcoef=151 rank=153 inter=0 guid=173 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':138, 'coefPosMax':152, 'coefValue':[1, 2, 1, 2, 1, 0, 0, 0, 0, 0, 1, 3, 2, 3, 2], 'data':'\x15\x10\x11\x11\x11\x11' }
+msg-size=59
+DECODED 348 nodeid=0xc0ab pos=153 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':153, 'coefPosMax':153, 'coefValue':[1], 'data':'\x54\xad\x99\x99\x99\x99' }
+GEN 348 nodeid=0xc0ab lowcoef=152 rank=154 inter=0 guid=174 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':139, 'coefPosMax':153, 'coefValue':[3, 1, 2, 0, 1, 3, 0, 1, 0, 2, 1, 2, 3, 1, 2], 'data':'\x71\x25\xff\xff\xff\xff' }
+msg-size=59
+DECODED 350 nodeid=0xc0ab pos=154 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':154, 'coefPosMax':154, 'coefValue':[1], 'data':'\xe4\x18\x9a\x9a\x9a\x9a' }
+GEN 350 nodeid=0xc0ab lowcoef=153 rank=155 inter=0 guid=175 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':140, 'coefPosMax':154, 'coefValue':[2, 0, 1, 0, 1, 3, 3, 1, 1, 2, 2, 2, 2, 1, 1], 'data':'\x40\xaf\xd8\xd8\xd8\xd8' }
+msg-size=59
+GEN 352 nodeid=0xc0ab lowcoef=154 rank=155 inter=0 guid=176 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':141, 'coefPosMax':155, 'coefValue':[1, 0, 1, 1, 3, 3, 2, 1, 2, 2, 3, 2, 1, 1, 0], 'data':'\x18\x18\x75\x75\x75\x75' }
+msg-size=59
+GEN 354 nodeid=0xc0ab lowcoef=154 rank=155 inter=0 guid=177 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':142, 'coefPosMax':156, 'coefValue':[2, 1, 1, 3, 3, 2, 2, 2, 2, 3, 3, 1, 1, 0, 0], 'data':'\x34\x80\xdb\xdb\xdb\xdb' }
+msg-size=59
+GEN 356 nodeid=0xc0ab lowcoef=154 rank=155 inter=0 guid=178 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':143, 'coefPosMax':157, 'coefValue':[1, 2, 1, 2, 3, 1, 2, 0, 1, 0, 3, 0, 1, 2, 1], 'data':'\x79\xd1\x13\x13\x13\x13' }
+msg-size=59
+GEN 358 nodeid=0xc0ab lowcoef=154 rank=155 inter=0 guid=179 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':144, 'coefPosMax':158, 'coefValue':[2, 3, 0, 1, 3, 0, 2, 3, 2, 1, 3, 3, 0, 3, 0], 'data':'\xc1\x48\xe4\xe4\xe4\xe4' }
+msg-size=59
+GEN 360 nodeid=0xc0ab lowcoef=154 rank=155 inter=0 guid=180 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':145, 'coefPosMax':159, 'coefValue':[2, 3, 0, 1, 2, 3, 2, 0, 2, 2, 3, 2, 1, 1, 0], 'data':'\xd7\xc4\xe9\xe9\xe9\xe9' }
+msg-size=59
+GEN 362 nodeid=0xc0ab lowcoef=154 rank=155 inter=0 guid=181 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':146, 'coefPosMax':160, 'coefValue':[0, 3, 2, 1, 1, 1, 0, 0, 0, 1, 2, 0, 2, 3, 1], 'data':'\x92\xe7\x4c\x4c\x4c\x4c' }
+msg-size=59
+GEN 364 nodeid=0xc0ab lowcoef=154 rank=155 inter=0 guid=182 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':147, 'coefPosMax':161, 'coefValue':[0, 3, 1, 0, 1, 3, 3, 1, 0, 2, 1, 2, 3, 1, 2], 'data':'\xa9\x46\x51\x51\x51\x51' }
+msg-size=59
+GEN 366 nodeid=0xc0ab lowcoef=154 rank=155 inter=0 guid=183 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':148, 'coefPosMax':162, 'coefValue':[0, 2, 2, 3, 2, 1, 2, 3, 0, 3, 1, 1, 3, 0, 2], 'data':'\xfd\x62\x4a\x4a\x4a\x4a' }
+msg-size=59
+GEN 368 nodeid=0xc0ab lowcoef=154 rank=155 inter=0 guid=184 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':149, 'coefPosMax':163, 'coefValue':[1, 0, 1, 0, 3, 3, 1, 2, 1, 2, 2, 2, 2, 0, 1], 'data':'\x00\x47\x41\x41\x41\x41' }
+msg-size=59
+GEN 370 nodeid=0xc0ab lowcoef=154 rank=156 inter=0 guid=185 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':150, 'coefPosMax':164, 'coefValue':[2, 1, 1, 3, 3, 2, 1, 2, 2, 3, 2, 1, 1, 0, 0], 'data':'\xdb\x15\x1f\x1f\x1f\x1f' }
+msg-size=59
+GEN 372 nodeid=0xc0ab lowcoef=155 rank=156 inter=0 guid=186 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':151, 'coefPosMax':165, 'coefValue':[2, 1, 1, 3, 2, 0, 3, 0, 2, 3, 0, 1, 0, 2, 1], 'data':'\x48\xa8\x41\x41\x41\x41' }
+msg-size=59
+GEN 374 nodeid=0xc0ab lowcoef=155 rank=156 inter=0 guid=187 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':152, 'coefPosMax':166, 'coefValue':[2, 2, 3, 2, 0, 2, 0, 2, 3, 1, 1, 3, 3, 1, 3], 'data':'\x9d\xfb\x3c\x3c\x3c\x3c' }
+msg-size=59
+GEN 376 nodeid=0xc0ab lowcoef=155 rank=156 inter=0 guid=188 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':153, 'coefPosMax':167, 'coefValue':[3, 2, 0, 2, 0, 3, 0, 1, 3, 3, 2, 1, 3, 1, 0], 'data':'\x31\xe6\x0b\x0b\x0b\x0b' }
+msg-size=59
+GEN 378 nodeid=0xc0ab lowcoef=155 rank=156 inter=0 guid=189 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':154, 'coefPosMax':168, 'coefValue':[1, 2, 1, 2, 2, 3, 2, 1, 1, 0, 0, 0, 0, 1, 1], 'data':'\x6c\xe5\x6c\x6c\x6c\x6c' }
+msg-size=59
+GEN 380 nodeid=0xc0ab lowcoef=155 rank=156 inter=0 guid=190 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[0, 2, 2, 2, 3, 3, 1, 1, 0, 0, 2, 0, 1, 1, 2], 'data':'\x4f\x92\xc7\xc7\xc7\xc7' }
+msg-size=59
+GEN 382 nodeid=0xc0ab lowcoef=155 rank=156 inter=0 guid=191 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[2, 0, 2, 2, 1, 1, 1, 1, 2, 2, 3, 1, 3, 0, 2], 'data':'\x68\xbf\x80\x80\x80\x80' }
+msg-size=59
+GEN 384 nodeid=0xc0ab lowcoef=155 rank=157 inter=0 guid=192 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[3, 3, 3, 0, 0, 1, 0, 2, 3, 1, 2, 2, 3, 3, 0], 'data':'\xe8\xf1\xdb\xdb\xdb\xdb' }
+msg-size=59
+GEN 386 nodeid=0xc0ab lowcoef=155 rank=158 inter=0 guid=193 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[3, 3, 1, 3, 0, 2, 2, 0, 3, 1, 0, 1, 2, 0, 1], 'data':'\x0f\x47\xe8\xe8\xe8\xe8' }
+msg-size=59
+GEN 388 nodeid=0xc0ab lowcoef=155 rank=159 inter=0 guid=194 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[3, 3, 3, 1, 3, 2, 0, 2, 3, 1, 2, 3, 2, 0, 3], 'data':'\x74\x0b\x6d\x6d\x6d\x6d' }
+msg-size=59
+GEN 390 nodeid=0xc0ab lowcoef=155 rank=160 inter=0 guid=195 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[0, 2, 0, 0, 3, 3, 3, 3, 0, 0, 1, 2, 1, 1, 0], 'data':'\x93\x73\x9d\x9d\x9d\x9d' }
+msg-size=59
+DECODED 392 nodeid=0xc0ab pos=159 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':159, 'coefPosMax':159, 'coefValue':[1], 'data':'\x37\x86\x9f\x9f\x9f\x9f' }
+GEN 392 nodeid=0xc0ab lowcoef=155 rank=161 inter=0 guid=196 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[0, 2, 2, 2, 2, 3, 1, 1, 0, 0, 3, 0, 1, 1, 2], 'data':'\xf1\xf4\xfd\xfd\xfd\xfd' }
+msg-size=59
+GEN 394 nodeid=0xc0ab lowcoef=155 rank=162 inter=0 guid=197 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[3, 2, 1, 0, 0, 3, 2, 0, 3, 1, 1, 2, 1, 1, 0], 'data':'\xe5\xcb\x0a\x0a\x0a\x0a' }
+msg-size=59
+GEN 396 nodeid=0xc0ab lowcoef=155 rank=163 inter=0 guid=198 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[2, 0, 0, 0, 1, 1, 2, 3, 2, 2, 0, 1, 3, 2, 0], 'data':'\x05\x89\x7c\x7c\x7c\x7c' }
+msg-size=59
+GEN 398 nodeid=0xc0ab lowcoef=155 rank=164 inter=0 guid=199 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[2, 0, 2, 2, 1, 1, 0, 1, 2, 2, 3, 0, 3, 3, 2], 'data':'\x21\x4d\xd3\xd3\xd3\xd3' }
+msg-size=59
+GEN 400 nodeid=0xc0ab lowcoef=155 rank=164 inter=0 guid=200 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[2, 1, 0, 3, 1, 0, 2, 3, 2, 2, 0, 1, 0, 2, 1], 'data':'\x9e\xc0\xce\xce\xce\xce' }
+msg-size=59
+DECODED 402 nodeid=0xc0ab pos=161 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':161, 'coefPosMax':161, 'coefValue':[1], 'data':'\xca\x12\xa1\xa1\xa1\xa1' }
+GEN 402 nodeid=0xc0ab lowcoef=155 rank=165 inter=0 guid=201 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[3, 3, 1, 3, 0, 2, 3, 0, 3, 1, 1, 2, 2, 1, 1], 'data':'\xb4\x90\x19\x19\x19\x19' }
+msg-size=59
+GEN 404 nodeid=0xc0ab lowcoef=155 rank=166 inter=0 guid=202 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[3, 0, 3, 0, 0, 1, 1, 2, 3, 2, 1, 2, 3, 3, 0], 'data':'\x1c\x19\x01\x01\x01\x01' }
+msg-size=59
+GEN 406 nodeid=0xc0ab lowcoef=155 rank=166 inter=0 guid=203 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[2, 0, 2, 2, 1, 1, 0, 1, 2, 2, 3, 0, 3, 3, 2], 'data':'\x21\x4d\xd3\xd3\xd3\xd3' }
+msg-size=59
+DECODED 408 nodeid=0xc0ab pos=166 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':166, 'coefPosMax':166, 'coefValue':[1], 'data':'\x39\x55\xa6\xa6\xa6\xa6' }
+GEN 408 nodeid=0xc0ab lowcoef=155 rank=167 inter=0 guid=204 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[1, 1, 1, 3, 2, 0, 3, 0, 1, 3, 3, 0, 0, 1, 1], 'data':'\x2c\x08\xf4\xf4\xf4\xf4' }
+msg-size=59
+DECODED 410 nodeid=0xc0ab pos=157 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':157, 'coefPosMax':157, 'coefValue':[1], 'data':'\x17\x5f\x9d\x9d\x9d\x9d' }
+DECODED 410 nodeid=0xc0ab pos=164 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':164, 'coefPosMax':164, 'coefValue':[1], 'data':'\x19\x8c\xa4\xa4\xa4\xa4' }
+GEN 410 nodeid=0xc0ab lowcoef=155 rank=168 inter=0 guid=205 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[2, 0, 1, 2, 1, 1, 0, 1, 2, 2, 0, 1, 3, 0, 2], 'data':'\xdb\xc7\x05\x05\x05\x05' }
+msg-size=59
+GEN 412 nodeid=0xc0ab lowcoef=155 rank=169 inter=0 guid=206 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[3, 3, 0, 0, 0, 1, 1, 2, 3, 1, 1, 2, 2, 3, 3], 'data':'\x38\xdd\xae\xae\xae\xae' }
+msg-size=59
+GEN 414 nodeid=0xc0ab lowcoef=155 rank=169 inter=0 guid=207 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[0, 2, 3, 1, 3, 0, 2, 3, 0, 0, 2, 0, 1, 2, 0], 'data':'\xd6\x17\x79\x79\x79\x79' }
+msg-size=59
+GEN 416 nodeid=0xc0ab lowcoef=155 rank=169 inter=0 guid=208 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[2, 0, 3, 0, 1, 1, 2, 3, 2, 2, 1, 1, 3, 3, 0], 'data':'\x6d\x49\x0a\x0a\x0a\x0a' }
+msg-size=59
+GEN 418 nodeid=0xc0ab lowcoef=155 rank=169 inter=0 guid=209 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[2, 3, 1, 3, 1, 2, 0, 1, 2, 1, 0, 1, 2, 0, 1], 'data':'\x93\xfa\x1f\x1f\x1f\x1f' }
+msg-size=59
+GEN 420 nodeid=0xc0ab lowcoef=155 rank=169 inter=0 guid=210 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[3, 3, 0, 1, 3, 2, 1, 2, 3, 1, 2, 0, 2, 0, 3], 'data':'\xa7\x1c\xea\xea\xea\xea' }
+msg-size=59
+GEN 422 nodeid=0xc0ab lowcoef=155 rank=169 inter=0 guid=211 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[1, 0, 0, 2, 2, 1, 1, 2, 1, 3, 3, 3, 3, 3, 2], 'data':'\x4e\xf0\x62\x62\x62\x62' }
+msg-size=59
+DECODED 424 nodeid=0xc0ab pos=155 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':155, 'coefValue':[1], 'data':'\x74\x74\x9b\x9b\x9b\x9b' }
+DECODED 424 nodeid=0xc0ab pos=156 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':156, 'coefPosMax':156, 'coefValue':[1], 'data':'\x87\x33\x9c\x9c\x9c\x9c' }
+DECODED 424 nodeid=0xc0ab pos=158 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':158, 'coefPosMax':158, 'coefValue':[1], 'data':'\xa7\xea\x9e\x9e\x9e\x9e' }
+DECODED 424 nodeid=0xc0ab pos=160 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':160, 'coefPosMax':160, 'coefValue':[1], 'data':'\x5a\x7e\xa0\xa0\xa0\xa0' }
+DECODED 424 nodeid=0xc0ab pos=162 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':162, 'coefPosMax':162, 'coefValue':[1], 'data':'\x7a\xa7\xa2\xa2\xa2\xa2' }
+DECODED 424 nodeid=0xc0ab pos=163 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':163, 'coefPosMax':163, 'coefValue':[1], 'data':'\xea\xcb\xa3\xa3\xa3\xa3' }
+DECODED 424 nodeid=0xc0ab pos=165 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':165, 'coefPosMax':165, 'coefValue':[1], 'data':'\x89\xe0\xa5\xa5\xa5\xa5' }
+DECODED 424 nodeid=0xc0ab pos=167 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':167, 'coefPosMax':167, 'coefValue':[1], 'data':'\xa9\x39\xa7\xa7\xa7\xa7' }
+DECODED 424 nodeid=0xc0ab pos=168 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':168, 'coefPosMax':168, 'coefValue':[1], 'data':'\xdf\xda\xa8\xa8\xa8\xa8' }
+DECODED 424 nodeid=0xc0ab pos=169 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':169, 'coefPosMax':169, 'coefValue':[1], 'data':'\x4f\xb6\xa9\xa9\xa9\xa9' }
+GEN 424 nodeid=0xc0ab lowcoef=155 rank=170 inter=0 guid=212 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':155, 'coefPosMax':169, 'coefValue':[2, 0, 3, 3, 1, 0, 2, 3, 2, 2, 0, 1, 0, 2, 1], 'data':'\x27\x09\x29\x29\x29\x29' }
+msg-size=59
+GEN 426 nodeid=0xc0ab lowcoef=169 rank=170 inter=0 guid=213 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':156, 'coefPosMax':170, 'coefValue':[3, 3, 1, 3, 3, 0, 2, 3, 1, 1, 3, 2, 0, 2, 0], 'data':'\xca\xbf\x4d\x4d\x4d\x4d' }
+msg-size=59
+DECODED 428 nodeid=0xc0ab pos=170 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':170, 'coefPosMax':170, 'coefValue':[1], 'data':'\xff\x03\xaa\xaa\xaa\xaa' }
+GEN 428 nodeid=0xc0ab lowcoef=169 rank=171 inter=0 guid=214 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':157, 'coefPosMax':171, 'coefValue':[2, 3, 1, 0, 3, 3, 2, 2, 0, 1, 3, 2, 0, 1, 0], 'data':'\x85\x4e\xa5\xa5\xa5\xa5' }
+msg-size=59
+GEN 430 nodeid=0xc0ab lowcoef=170 rank=171 inter=0 guid=215 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':158, 'coefPosMax':172, 'coefValue':[3, 0, 2, 1, 2, 3, 1, 1, 1, 2, 3, 3, 1, 1, 3], 'data':'\xfe\xe8\x8d\x8d\x8d\x8d' }
+msg-size=59
+DECODED 432 nodeid=0xc0ab pos=172 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':172, 'coefPosMax':172, 'coefValue':[1], 'data':'\x9c\x28\xac\xac\xac\xac' }
+GEN 432 nodeid=0xc0ab lowcoef=170 rank=172 inter=0 guid=216 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':159, 'coefPosMax':173, 'coefValue':[1, 1, 1, 3, 3, 1, 1, 1, 0, 3, 0, 1, 0, 3, 0], 'data':'\x43\xa9\x9c\x9c\x9c\x9c' }
+msg-size=59
+GEN 434 nodeid=0xc0ab lowcoef=171 rank=172 inter=0 guid=217 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':160, 'coefPosMax':174, 'coefValue':[3, 2, 2, 3, 2, 1, 1, 0, 0, 0, 0, 1, 2, 0, 2], 'data':'\x71\xc5\x50\x50\x50\x50' }
+msg-size=59
+GEN 436 nodeid=0xc0ab lowcoef=171 rank=172 inter=0 guid=218 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':161, 'coefPosMax':175, 'coefValue':[1, 1, 0, 2, 3, 3, 2, 2, 1, 3, 2, 0, 3, 0, 2], 'data':'\x09\x44\x53\x53\x53\x53' }
+msg-size=59
+GEN 438 nodeid=0xc0ab lowcoef=171 rank=172 inter=0 guid=219 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':162, 'coefPosMax':176, 'coefValue':[3, 1, 1, 2, 3, 2, 2, 1, 1, 3, 0, 3, 1, 1, 3], 'data':'\x64\xc6\x9b\x9b\x9b\x9b' }
+msg-size=59
+GEN 440 nodeid=0xc0ab lowcoef=171 rank=172 inter=0 guid=220 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':163, 'coefPosMax':177, 'coefValue':[3, 0, 3, 1, 1, 3, 0, 2, 3, 3, 0, 0, 1, 0, 3], 'data':'\xa1\xab\x65\x65\x65\x65' }
+msg-size=59
+GEN 442 nodeid=0xc0ab lowcoef=171 rank=172 inter=0 guid=221 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':164, 'coefPosMax':178, 'coefValue':[1, 1, 3, 2, 1, 2, 0, 1, 1, 2, 2, 3, 3, 1, 1], 'data':'\x6a\x31\xcc\xcc\xcc\xcc' }
+msg-size=59
+GEN 444 nodeid=0xc0ab lowcoef=171 rank=172 inter=0 guid=222 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':165, 'coefPosMax':179, 'coefValue':[0, 2, 3, 3, 1, 1, 0, 3, 3, 1, 0, 2, 1, 2, 3], 'data':'\xee\x50\x8f\x8f\x8f\x8f' }
+msg-size=59
+GEN 446 nodeid=0xc0ab lowcoef=171 rank=172 inter=0 guid=223 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':166, 'coefPosMax':180, 'coefValue':[3, 1, 1, 2, 2, 3, 1, 2, 3, 1, 1, 2, 0, 1, 3], 'data':'\x46\x55\x14\x14\x14\x14' }
+msg-size=59
+GEN 448 nodeid=0xc0ab lowcoef=171 rank=173 inter=0 guid=224 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':167, 'coefPosMax':181, 'coefValue':[1, 2, 1, 3, 3, 0, 3, 3, 0, 2, 2, 2, 2, 3, 0], 'data':'\xa3\x18\x9f\x9f\x9f\x9f' }
+msg-size=59
+GEN 450 nodeid=0xc0ab lowcoef=171 rank=173 inter=0 guid=225 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':168, 'coefPosMax':182, 'coefValue':[0, 0, 2, 3, 3, 0, 0, 0, 3, 3, 3, 2, 3, 3, 2], 'data':'\x74\x71\x9a\x9a\x9a\x9a' }
+msg-size=59
+GEN 452 nodeid=0xc0ab lowcoef=171 rank=173 inter=0 guid=226 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':169, 'coefPosMax':183, 'coefValue':[1, 3, 2, 2, 1, 3, 2, 0, 2, 1, 0, 0, 3, 0, 1], 'data':'\x36\x18\x4c\x4c\x4c\x4c' }
+msg-size=59
+GEN 454 nodeid=0xc0ab lowcoef=171 rank=173 inter=0 guid=227 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':170, 'coefPosMax':184, 'coefValue':[3, 3, 0, 3, 0, 0, 1, 2, 3, 2, 3, 0, 2, 0, 1], 'data':'\x0f\x6c\x85\x85\x85\x85' }
+msg-size=59
+GEN 456 nodeid=0xc0ab lowcoef=171 rank=173 inter=0 guid=228 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[2, 0, 3, 3, 0, 2, 2, 2, 2, 3, 0, 2, 0, 1, 1], 'data':'\x65\x5d\x49\x49\x49\x49' }
+msg-size=59
+GEN 458 nodeid=0xc0ab lowcoef=171 rank=174 inter=0 guid=229 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[1, 1, 0, 1, 2, 0, 1, 3, 1, 2, 3, 3, 3, 0, 1], 'data':'\xef\xea\x32\x32\x32\x32' }
+msg-size=59
+GEN 460 nodeid=0xc0ab lowcoef=171 rank=175 inter=0 guid=230 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[0, 2, 1, 1, 3, 3, 0, 0, 3, 1, 2, 0, 1, 3, 0], 'data':'\xe1\xe4\x12\x12\x12\x12' }
+msg-size=59
+GEN 462 nodeid=0xc0ab lowcoef=171 rank=176 inter=0 guid=231 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[3, 3, 2, 0, 0, 2, 3, 1, 3, 0, 1, 1, 2, 2, 3], 'data':'\x82\x68\xfa\xfa\xfa\xfa' }
+msg-size=59
+GEN 464 nodeid=0xc0ab lowcoef=171 rank=177 inter=0 guid=232 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[1, 1, 2, 0, 1, 1, 3, 1, 1, 0, 3, 2, 2, 1, 2], 'data':'\x67\x5a\x87\x87\x87\x87' }
+msg-size=59
+GEN 466 nodeid=0xc0ab lowcoef=171 rank=178 inter=0 guid=233 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[2, 0, 1, 1, 1, 1, 0, 0, 2, 1, 0, 2, 1, 1, 0], 'data':'\x7d\x6b\x50\x50\x50\x50' }
+msg-size=59
+GEN 468 nodeid=0xc0ab lowcoef=171 rank=179 inter=0 guid=234 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[2, 0, 3, 3, 0, 1, 2, 2, 2, 3, 0, 2, 3, 1, 1], 'data':'\xc7\x93\x47\x47\x47\x47' }
+msg-size=59
+GEN 470 nodeid=0xc0ab lowcoef=171 rank=180 inter=0 guid=235 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[1, 1, 0, 2, 2, 0, 1, 3, 2, 2, 3, 3, 0, 0, 1], 'data':'\x45\xe8\x67\x67\x67\x67' }
+msg-size=59
+GEN 472 nodeid=0xc0ab lowcoef=171 rank=180 inter=0 guid=236 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[3, 3, 0, 2, 0, 2, 1, 3, 3, 2, 1, 1, 0, 2, 1], 'data':'\xd9\x67\x25\x25\x25\x25' }
+msg-size=59
+GEN 474 nodeid=0xc0ab lowcoef=171 rank=181 inter=0 guid=237 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[3, 3, 2, 0, 1, 1, 0, 1, 2, 1, 0, 2, 2, 1, 0], 'data':'\xfd\xa3\x8a\x8a\x8a\x8a' }
+msg-size=59
+DECODED 476 nodeid=0xc0ab pos=179 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':179, 'coefPosMax':179, 'coefValue':[1], 'data':'\xe3\xc2\xb3\xb3\xb3\xb3' }
+GEN 476 nodeid=0xc0ab lowcoef=171 rank=182 inter=0 guid=238 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[2, 0, 3, 3, 1, 1, 2, 2, 3, 3, 0, 2, 3, 1, 2], 'data':'\xc5\xa6\x3c\x3c\x3c\x3c' }
+msg-size=59
+GEN 478 nodeid=0xc0ab lowcoef=171 rank=183 inter=0 guid=239 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[2, 0, 1, 1, 2, 0, 0, 0, 3, 1, 0, 2, 1, 1, 1], 'data':'\x93\x1a\xb0\xb0\xb0\xb0' }
+msg-size=59
+GEN 480 nodeid=0xc0ab lowcoef=171 rank=183 inter=0 guid=240 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[2, 0, 3, 3, 0, 2, 1, 2, 3, 2, 1, 1, 3, 2, 1], 'data':'\x59\xaf\xff\xff\xff\xff' }
+msg-size=59
+GEN 482 nodeid=0xc0ab lowcoef=171 rank=183 inter=0 guid=241 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[0, 2, 3, 3, 0, 2, 2, 2, 1, 3, 2, 1, 3, 2, 3], 'data':'\x20\x94\x41\x41\x41\x41' }
+msg-size=59
+GEN 484 nodeid=0xc0ab lowcoef=171 rank=183 inter=0 guid=242 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[3, 3, 0, 2, 0, 2, 1, 3, 2, 2, 1, 1, 0, 2, 1], 'data':'\x3a\xa5\x96\x96\x96\x96' }
+msg-size=59
+GEN 486 nodeid=0xc0ab lowcoef=171 rank=183 inter=0 guid=243 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[2, 0, 1, 1, 2, 0, 0, 0, 3, 1, 0, 2, 1, 1, 1], 'data':'\x93\x1a\xb0\xb0\xb0\xb0' }
+msg-size=59
+GEN 488 nodeid=0xc0ab lowcoef=171 rank=183 inter=0 guid=244 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[0, 2, 1, 1, 3, 3, 0, 0, 2, 1, 2, 0, 1, 3, 0], 'data':'\x02\x26\xa1\xa1\xa1\xa1' }
+msg-size=59
+DECODED 490 nodeid=0xc0ab pos=175 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':175, 'coefPosMax':175, 'coefValue':[1], 'data':'\x2c\x9d\xaf\xaf\xaf\xaf' }
+DECODED 490 nodeid=0xc0ab pos=176 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':176, 'coefPosMax':176, 'coefValue':[1], 'data':'\x53\x77\xb0\xb0\xb0\xb0' }
+DECODED 490 nodeid=0xc0ab pos=185 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':185, 'coefPosMax':185, 'coefValue':[1], 'data':'\x46\xbf\xb9\xb9\xb9\xb9' }
+GEN 490 nodeid=0xc0ab lowcoef=171 rank=184 inter=0 guid=245 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[1, 1, 0, 2, 3, 3, 1, 3, 0, 2, 3, 3, 0, 0, 2], 'data':'\x27\xb2\x1e\x1e\x1e\x1e' }
+msg-size=59
+GEN 492 nodeid=0xc0ab lowcoef=171 rank=184 inter=0 guid=246 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[0, 2, 1, 1, 3, 3, 0, 0, 1, 1, 2, 0, 1, 3, 0], 'data':'\x90\xa7\xc3\xc3\xc3\xc3' }
+msg-size=59
+GEN 494 nodeid=0xc0ab lowcoef=171 rank=184 inter=0 guid=247 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[1, 1, 0, 2, 2, 0, 1, 3, 0, 2, 3, 3, 0, 0, 1], 'data':'\x34\xab\xb6\xb6\xb6\xb6' }
+msg-size=59
+DECODED 496 nodeid=0xc0ab pos=177 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':177, 'coefPosMax':177, 'coefValue':[1], 'data':'\xc3\x1b\xb1\xb1\xb1\xb1' }
+DECODED 496 nodeid=0xc0ab pos=178 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':178, 'coefPosMax':178, 'coefValue':[1], 'data':'\x73\xae\xb2\xb2\xb2\xb2' }
+GEN 496 nodeid=0xc0ab lowcoef=171 rank=185 inter=0 guid=248 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[1, 1, 2, 0, 1, 1, 2, 1, 0, 3, 0, 2, 2, 1, 2], 'data':'\x37\x5b\x86\x86\x86\x86' }
+msg-size=59
+DECODED 498 nodeid=0xc0ab pos=171 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':171, 'coefValue':[1], 'data':'\x6f\x6f\xab\xab\xab\xab' }
+DECODED 498 nodeid=0xc0ab pos=173 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':173, 'coefPosMax':173, 'coefValue':[1], 'data':'\x0c\x44\xad\xad\xad\xad' }
+DECODED 498 nodeid=0xc0ab pos=174 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':174, 'coefPosMax':174, 'coefValue':[1], 'data':'\xbc\xf1\xae\xae\xae\xae' }
+DECODED 498 nodeid=0xc0ab pos=180 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':180, 'coefPosMax':180, 'coefValue':[1], 'data':'\x10\x85\xb4\xb4\xb4\xb4' }
+DECODED 498 nodeid=0xc0ab pos=181 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':181, 'coefPosMax':181, 'coefValue':[1], 'data':'\x80\xe9\xb5\xb5\xb5\xb5' }
+DECODED 498 nodeid=0xc0ab pos=182 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':182, 'coefPosMax':182, 'coefValue':[1], 'data':'\x30\x5c\xb6\xb6\xb6\xb6' }
+DECODED 498 nodeid=0xc0ab pos=183 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':183, 'coefPosMax':183, 'coefValue':[1], 'data':'\xa0\x30\xb7\xb7\xb7\xb7' }
+DECODED 498 nodeid=0xc0ab pos=184 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':184, 'coefPosMax':184, 'coefValue':[1], 'data':'\xd6\xd3\xb8\xb8\xb8\xb8' }
+GEN 498 nodeid=0xc0ab lowcoef=171 rank=186 inter=0 guid=249 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':171, 'coefPosMax':185, 'coefValue':[2, 0, 0, 2, 2, 0, 1, 0, 3, 2, 3, 3, 0, 0, 1], 'data':'\x02\x81\x4f\x4f\x4f\x4f' }
+msg-size=59
+DECODED 500 nodeid=0xc0ab pos=186 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':186, 'coefPosMax':186, 'coefValue':[1], 'data':'\xf6\x0a\xba\xba\xba\xba' }
+GEN 500 nodeid=0xc0ab lowcoef=185 rank=187 inter=0 guid=250 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':172, 'coefPosMax':186, 'coefValue':[0, 0, 1, 3, 3, 2, 2, 1, 3, 2, 3, 3, 3, 2, 2], 'data':'\x88\xfd\xf6\xf6\xf6\xf6' }
+msg-size=59
+GEN 502 nodeid=0xc0ab lowcoef=186 rank=187 inter=0 guid=251 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':173, 'coefPosMax':187, 'coefValue':[2, 1, 2, 0, 0, 0, 2, 1, 0, 3, 1, 0, 1, 3, 0], 'data':'\x86\x2b\xce\xce\xce\xce' }
+msg-size=59
+GEN 504 nodeid=0xc0ab lowcoef=186 rank=187 inter=0 guid=252 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':174, 'coefPosMax':188, 'coefValue':[0, 1, 0, 0, 0, 3, 1, 0, 2, 1, 2, 1, 3, 0, 2], 'data':'\x74\xe4\xc1\xc1\xc1\xc1' }
+msg-size=59
+GEN 506 nodeid=0xc0ab lowcoef=186 rank=187 inter=0 guid=253 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':175, 'coefPosMax':189, 'coefValue':[2, 3, 1, 0, 3, 3, 3, 3, 0, 3, 1, 3, 0, 2, 3], 'data':'\x74\x43\x2f\x2f\x2f\x2f' }
+msg-size=59
+GEN 508 nodeid=0xc0ab lowcoef=186 rank=187 inter=0 guid=254 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':176, 'coefPosMax':190, 'coefValue':[2, 2, 3, 0, 3, 3, 0, 0, 0, 1, 2, 1, 1, 3, 1], 'data':'\x26\xf1\xd4\xd4\xd4\xd4' }
+msg-size=59
+GEN 510 nodeid=0xc0ab lowcoef=186 rank=188 inter=0 guid=255 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':177, 'coefPosMax':191, 'coefValue':[1, 1, 2, 1, 1, 3, 2, 2, 3, 3, 3, 3, 1, 3, 0], 'data':'\x42\x5b\x63\x63\x63\x63' }
+msg-size=59
+GEN 512 nodeid=0xc0ab lowcoef=187 rank=189 inter=0 guid=256 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':178, 'coefPosMax':192, 'coefValue':[1, 3, 2, 3, 3, 1, 0, 1, 3, 0, 2, 3, 3, 0, 0], 'data':'\x60\x5d\xb7\xb7\xb7\xb7' }
+msg-size=59
+GEN 514 nodeid=0xc0ab lowcoef=187 rank=189 inter=0 guid=257 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':179, 'coefPosMax':193, 'coefValue':[1, 1, 0, 2, 2, 2, 0, 0, 3, 3, 1, 2, 1, 2, 2], 'data':'\xc0\x6d\x00\x00\x00\x00' }
+msg-size=59
+GEN 516 nodeid=0xc0ab lowcoef=187 rank=189 inter=0 guid=258 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':180, 'coefPosMax':194, 'coefValue':[2, 0, 1, 2, 1, 3, 0, 3, 3, 1, 2, 1, 2, 3, 3], 'data':'\x77\x97\xf1\xf1\xf1\xf1' }
+msg-size=59
+GEN 518 nodeid=0xc0ab lowcoef=187 rank=189 inter=0 guid=259 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':181, 'coefPosMax':195, 'coefValue':[1, 2, 0, 3, 2, 1, 1, 1, 3, 2, 0, 0, 1, 1, 2], 'data':'\xa2\x13\x97\x97\x97\x97' }
+msg-size=59
+GEN 520 nodeid=0xc0ab lowcoef=187 rank=190 inter=0 guid=260 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':182, 'coefPosMax':196, 'coefValue':[1, 3, 1, 3, 3, 0, 3, 1, 3, 0, 2, 3, 3, 0, 0], 'data':'\x17\xd9\x9c\x9c\x9c\x9c' }
+msg-size=59
+GEN 522 nodeid=0xc0ab lowcoef=187 rank=190 inter=0 guid=261 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':183, 'coefPosMax':197, 'coefValue':[3, 3, 2, 0, 3, 1, 2, 3, 1, 2, 2, 0, 3, 1, 0], 'data':'\x19\xa8\x4a\x4a\x4a\x4a' }
+msg-size=59
+GEN 524 nodeid=0xc0ab lowcoef=187 rank=190 inter=0 guid=262 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':184, 'coefPosMax':198, 'coefValue':[0, 2, 0, 3, 1, 0, 2, 1, 1, 0, 0, 2, 2, 0, 2], 'data':'\x04\x91\xee\xee\xee\xee' }
+msg-size=59
+GEN 526 nodeid=0xc0ab lowcoef=187 rank=190 inter=0 guid=263 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':185, 'coefPosMax':199, 'coefValue':[3, 2, 1, 3, 3, 3, 3, 0, 2, 3, 0, 3, 2, 0, 3], 'data':'\xd9\x4c\x88\x88\x88\x88' }
+msg-size=59
+GEN 528 nodeid=0xc0ab lowcoef=187 rank=190 inter=0 guid=264 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':186, 'coefPosMax':200, 'coefValue':[2, 2, 2, 0, 1, 2, 1, 0, 0, 3, 2, 3, 3, 0, 3], 'data':'\x93\x5d\x31\x31\x31\x31' }
+msg-size=59
+GEN 530 nodeid=0xc0ab lowcoef=187 rank=190 inter=0 guid=265 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':187, 'coefPosMax':201, 'coefValue':[0, 1, 1, 0, 3, 1, 3, 1, 2, 0, 1, 2, 1, 2, 1], 'data':'\x41\x1f\x67\x67\x67\x67' }
+msg-size=59
+GEN 532 nodeid=0xc0ab lowcoef=187 rank=191 inter=0 guid=266 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':187, 'coefPosMax':201, 'coefValue':[1, 2, 0, 2, 3, 1, 2, 2, 3, 3, 1, 1, 0, 0, 0], 'data':'\xe7\x9d\x1e\x1e\x1e\x1e' }
+msg-size=59
+GEN 534 nodeid=0xc0ab lowcoef=187 rank=191 inter=0 guid=267 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':187, 'coefPosMax':201, 'coefValue':[1, 1, 0, 1, 2, 2, 0, 1, 3, 0, 0, 2, 0, 3, 1], 'data':'\xd7\x48\x6a\x6a\x6a\x6a' }
+msg-size=59
+GEN 536 nodeid=0xc0ab lowcoef=187 rank=192 inter=0 guid=268 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':187, 'coefPosMax':201, 'coefValue':[3, 1, 1, 1, 0, 1, 1, 3, 2, 0, 2, 0, 1, 3, 3], 'data':'\xfe\xbc\x96\x96\x96\x96' }
+msg-size=59
+GEN 538 nodeid=0xc0ab lowcoef=187 rank=193 inter=0 guid=269 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':187, 'coefPosMax':201, 'coefValue':[2, 3, 3, 2, 0, 3, 1, 3, 0, 2, 2, 0, 3, 1, 0], 'data':'\x8e\xfe\x8d\x8d\x8d\x8d' }
+msg-size=59
+GEN 540 nodeid=0xc0ab lowcoef=187 rank=194 inter=0 guid=270 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':187, 'coefPosMax':201, 'coefValue':[0, 2, 0, 2, 3, 2, 2, 2, 3, 3, 1, 1, 0, 0, 3], 'data':'\xbe\x7f\xa2\xa2\xa2\xa2' }
+msg-size=59
+GEN 542 nodeid=0xc0ab lowcoef=187 rank=194 inter=0 guid=271 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':187, 'coefPosMax':201, 'coefValue':[2, 3, 3, 2, 0, 3, 1, 3, 0, 2, 2, 0, 3, 1, 0], 'data':'\x8e\xfe\x8d\x8d\x8d\x8d' }
+msg-size=59
+GEN 544 nodeid=0xc0ab lowcoef=187 rank=195 inter=0 guid=272 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':187, 'coefPosMax':201, 'coefValue':[2, 3, 3, 3, 2, 3, 3, 1, 0, 2, 0, 2, 3, 1, 2], 'data':'\x9f\x2e\xa8\xa8\xa8\xa8' }
+msg-size=59
+GEN 546 nodeid=0xc0ab lowcoef=187 rank=196 inter=0 guid=273 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':187, 'coefPosMax':201, 'coefValue':[2, 2, 0, 2, 1, 2, 1, 0, 0, 3, 3, 3, 0, 0, 1], 'data':'\xe5\x63\xa7\xa7\xa7\xa7' }
+msg-size=59
+GEN 548 nodeid=0xc0ab lowcoef=187 rank=197 inter=0 guid=274 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':187, 'coefPosMax':201, 'coefValue':[1, 2, 3, 3, 2, 2, 2, 1, 3, 2, 0, 2, 3, 1, 2], 'data':'\xff\x15\xf1\xf1\xf1\xf1' }
+msg-size=59
+DECODED 550 nodeid=0xc0ab pos=187 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':187, 'coefPosMax':187, 'coefValue':[1], 'data':'\x66\x66\xbb\xbb\xbb\xbb' }
+DECODED 550 nodeid=0xc0ab pos=190 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':190, 'coefPosMax':190, 'coefValue':[1], 'data':'\xb5\xf8\xbe\xbe\xbe\xbe' }
+GEN 550 nodeid=0xc0ab lowcoef=187 rank=198 inter=0 guid=275 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':187, 'coefPosMax':201, 'coefValue':[2, 3, 0, 2, 1, 3, 1, 0, 0, 3, 3, 3, 0, 0, 1], 'data':'\x1c\x0a\xdb\xdb\xdb\xdb' }
+msg-size=59
+GEN 552 nodeid=0xc0ab lowcoef=188 rank=199 inter=0 guid=276 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':188, 'coefPosMax':202, 'coefValue':[0, 2, 2, 1, 3, 2, 0, 0, 2, 2, 2, 3, 0, 0, 2], 'data':'\xa8\xa7\xf4\xf4\xf4\xf4' }
+msg-size=59
+GEN 554 nodeid=0xc0ab lowcoef=188 rank=200 inter=0 guid=277 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':188, 'coefPosMax':202, 'coefValue':[0, 2, 3, 2, 3, 0, 1, 0, 2, 1, 3, 3, 1, 2, 0], 'data':'\x46\x62\x20\x20\x20\x20' }
+msg-size=59
+GEN 556 nodeid=0xc0ab lowcoef=188 rank=200 inter=0 guid=278 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':188, 'coefPosMax':202, 'coefValue':[1, 0, 1, 2, 1, 0, 1, 2, 0, 1, 3, 1, 3, 2, 0], 'data':'\x7d\xed\xd1\xd1\xd1\xd1' }
+msg-size=59
+DECODED 558 nodeid=0xc0ab pos=193 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':193, 'coefPosMax':193, 'coefValue':[1], 'data':'\xfc\x24\xc1\xc1\xc1\xc1' }
+DECODED 558 nodeid=0xc0ab pos=195 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':195, 'coefPosMax':195, 'coefValue':[1], 'data':'\xdc\xfd\xc3\xc3\xc3\xc3' }
+GEN 558 nodeid=0xc0ab lowcoef=188 rank=201 inter=0 guid=279 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':188, 'coefPosMax':202, 'coefValue':[2, 0, 2, 3, 1, 2, 3, 2, 0, 3, 1, 1, 0, 0, 2], 'data':'\x0f\x8c\xea\xea\xea\xea' }
+msg-size=59
+GEN 560 nodeid=0xc0ab lowcoef=188 rank=202 inter=0 guid=280 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':188, 'coefPosMax':202, 'coefValue':[3, 3, 3, 0, 0, 1, 2, 1, 1, 3, 0, 2, 1, 3, 3], 'data':'\x92\xc6\xe3\xe3\xe3\xe3' }
+msg-size=59
+DECODED 562 nodeid=0xc0ab pos=188 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':188, 'coefPosMax':188, 'coefValue':[1], 'data':'\x95\x21\xbc\xbc\xbc\xbc' }
+DECODED 562 nodeid=0xc0ab pos=189 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':189, 'coefPosMax':189, 'coefValue':[1], 'data':'\x05\x4d\xbd\xbd\xbd\xbd' }
+DECODED 562 nodeid=0xc0ab pos=191 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':191, 'coefPosMax':191, 'coefValue':[1], 'data':'\x25\x94\xbf\xbf\xbf\xbf' }
+DECODED 562 nodeid=0xc0ab pos=192 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':192, 'coefPosMax':192, 'coefValue':[1], 'data':'\x6c\x48\xc0\xc0\xc0\xc0' }
+DECODED 562 nodeid=0xc0ab pos=194 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':194, 'coefPosMax':194, 'coefValue':[1], 'data':'\x4c\x91\xc2\xc2\xc2\xc2' }
+DECODED 562 nodeid=0xc0ab pos=196 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':196, 'coefPosMax':196, 'coefValue':[1], 'data':'\x2f\xba\xc4\xc4\xc4\xc4' }
+DECODED 562 nodeid=0xc0ab pos=197 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':197, 'coefPosMax':197, 'coefValue':[1], 'data':'\xbf\xd6\xc5\xc5\xc5\xc5' }
+DECODED 562 nodeid=0xc0ab pos=198 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':198, 'coefPosMax':198, 'coefValue':[1], 'data':'\x0f\x63\xc6\xc6\xc6\xc6' }
+DECODED 562 nodeid=0xc0ab pos=199 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':199, 'coefPosMax':199, 'coefValue':[1], 'data':'\x9f\x0f\xc7\xc7\xc7\xc7' }
+DECODED 562 nodeid=0xc0ab pos=200 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':200, 'coefPosMax':200, 'coefValue':[1], 'data':'\xe9\xec\xc8\xc8\xc8\xc8' }
+DECODED 562 nodeid=0xc0ab pos=201 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':201, 'coefPosMax':201, 'coefValue':[1], 'data':'\x79\x80\xc9\xc9\xc9\xc9' }
+DECODED 562 nodeid=0xc0ab pos=202 packet:{ 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':202, 'coefPosMax':202, 'coefValue':[1], 'data':'\xc9\x35\xca\xca\xca\xca' }
+GEN 562 nodeid=0xc0ab lowcoef=188 rank=203 inter=0 guid=281 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':188, 'coefPosMax':202, 'coefValue':[3, 3, 1, 0, 0, 3, 0, 1, 1, 2, 2, 2, 3, 1, 1], 'data':'\x8c\x89\xf6\xf6\xf6\xf6' }
+msg-size=59
+GEN 564 nodeid=0xc0ab lowcoef=202 rank=203 inter=0 guid=282 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':189, 'coefPosMax':203, 'coefValue':[0, 2, 0, 1, 1, 3, 2, 0, 2, 0, 1, 3, 3, 1, 0], 'data':'\x15\x9c\x52\x52\x52\x52' }
+msg-size=59
+GEN 566 nodeid=0xc0ab lowcoef=202 rank=203 inter=0 guid=283 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':190, 'coefPosMax':204, 'coefValue':[3, 3, 1, 2, 3, 2, 0, 3, 0, 1, 0, 0, 1, 0, 3], 'data':'\x8d\x33\x4b\x4b\x4b\x4b' }
+msg-size=59
+GEN 568 nodeid=0xc0ab lowcoef=202 rank=203 inter=0 guid=284 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':191, 'coefPosMax':205, 'coefValue':[3, 0, 3, 0, 1, 1, 2, 2, 2, 3, 1, 1, 3, 0, 3], 'data':'\x84\xc3\x2c\x2c\x2c\x2c' }
+msg-size=59
+GEN 570 nodeid=0xc0ab lowcoef=202 rank=203 inter=0 guid=285 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':192, 'coefPosMax':206, 'coefValue':[1, 0, 3, 0, 1, 2, 2, 3, 2, 1, 0, 1, 0, 3, 1], 'data':'\xd0\xda\x01\x01\x01\x01' }
+msg-size=59
+GEN 572 nodeid=0xc0ab lowcoef=202 rank=203 inter=0 guid=286 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':193, 'coefPosMax':207, 'coefValue':[1, 0, 1, 0, 3, 1, 0, 2, 0, 2, 3, 0, 0, 3, 1], 'data':'\xdd\xbb\x88\x88\x88\x88' }
+msg-size=59
+GEN 574 nodeid=0xc0ab lowcoef=202 rank=203 inter=0 guid=287 { 'type':'coded-packet', 'l':1, 'dataSize': 6, 'coefPosMin':194, 'coefPosMax':208, 'coefValue':[2, 1, 0, 0, 0, 1, 1, 3, 2, 3, 1, 2, 3, 1, 1], 'data':'\xff\xb8\xdd\xdd\xdd\xdd' }
+msg-size=59
+

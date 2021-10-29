@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GETRF</title><link href="http://hipercom.inria.fr/Project-GETRF/" rel="alternate"></link><link href="http://hipercom.inria.fr/Project-GETRF/feeds/all.atom.xml" rel="self"></link><id>http://hipercom.inria.fr/Project-GETRF/</id><updated>2014-10-13T16:10:44+02:00</updated><entry><title></title><link href="http://hipercom.inria.fr/Project-GETRF/.html" rel="alternate"></link><updated>2014-10-13T16:10:44+02:00</updated><author><name>Ichrak Amdouni</name></author><id>tag:hipercom.inria.fr/Project-GETRF,2014-10-13:.html</id><summary type="html">&lt;h2&gt;Context of the project&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.agence-nationale-recherche.fr"&gt;
+The French National Research Agency&lt;/a&gt; launches 
+in partnership with the Defense Procurement Agency (DGA) a programme called 
+&lt;a href="http://www.agence-nationale-recherche.fr/en/research-programmes/aap-en/
+specific-support-for-research-works-and-innovation-defense-astrid-2011/nc/"&gt;ASTRID&lt;/a&gt;: 
+Specific support for research works and innovation defense. 
+This programme is funded entirely by the DGA and is housed at the ANR 
+which ensures its implementation.
+ASTRID is a programme dedicated to support small research projects 
+with a highly exploratory and innovative nature, with a duration of 
+less than 36 months and whose applications are dual (both civilian and military). &lt;/p&gt;
+&lt;h2&gt;Scope of the Project&lt;/h2&gt;
+&lt;p&gt;GETRF project focuses on &lt;b&gt;wireless multihop military networks&lt;/b&gt;. The aim is to propose new mechanisms
+to improve the performance of these networks. &lt;br&gt; 
+This project considers wireless multihop networks as a whole of which &lt;b&gt;mobile ad hoc networks 
+(MANETs) and sensor wireless networks (WSNs)&lt;/b&gt; are specific cases, 
+with both differences and commonalities. &lt;br&gt;
+&lt;br clear="all"&gt; 
+The goal is to address two major challenges in tactical military networks: 
+&lt;ul class="list2 pad_bot2"&gt;
+&lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;b&gt; Efficient management of energy, latency and network capacity.&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;b&gt; Efficient management of the network in mobile or degraded environment.&lt;/b&gt;&lt;/li&gt; 
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;These objectives may for instance answer two scenario of functioning of military tactical networks:
+&lt;ul class="list2 pad_bot2"&gt;
+    &lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;b&gt; A stabilized and static situation in operating normally&lt;/b&gt;, where the goal is to optimize the 
+    network usage.&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;b&gt; The case of more critical scenarios&lt;/b&gt;, for instance, 
+    the case of high mobility, the case of unexpected degradation of the quality 
+    of one part of the network, and, also, the case where the broadcast information is exceeding the capacity, which are all cases where
+    the goal is to operate despite the very high constraints.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;h2&gt;Research directions&lt;/h2&gt;
+&lt;p&gt;To answer these objectives, GETRF targets a layered architecture combining three type of mechanisms: 
+&lt;ul class="list2 pad_bot2"&gt;
+    &lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt; &lt;b&gt;Network coding techniques&lt;/b&gt;. These recent schemes allow for more robust information
+     broadcast in the case of changes in the network (mobility, degradation of one part of the network), 
+     to reduce the control traffic exchanges, and more generally, to increase network efficiency
+      (less transmissions, more capacity). 
+    &lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt; &lt;b&gt;Node coloring techniques&lt;/b&gt;. They allow time-slots to be assigned to nodes or links of the wireless network. 
+    These techniques allow one to build efficient Time Division Multiple Access techniques. The medium access 
+    scheme obtained can be very energy efficient (low duty cycle) and can also offer very good end-to-end delays. 
+    &lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt; &lt;b&gt;Opportunistic routing schemes&lt;/b&gt;. Opportunistic routing protocols, usually based on 
+    geographic routing, can improve the total throughput of ad hoc networks. They can also be combined with medium access schemes 
+    to build network nodes operating in low-duty cycle mode. These schemes 
+    can be very energy efficient. Another application of opportunistic routing is a coupling with mobility 
+    (mobile opportunistic routing schemes). On can take advantage of nodes' mobility to optimize the delivery delay. 
+&lt;/ul&gt; &lt;/p&gt;
+&lt;h2&gt;Perspectives&lt;/h2&gt;
+&lt;p&gt;For wireless sensor networks, GETRF paves the way for very energy efficient networks while offering acceptable data delivery delays. 
+For surveillance applications (therefore carrying very little information), the project should lead to networks with very long lifetimes.
+For ad hoc networks, the GETRF project aims at supporting networks with high mobility where the current networks based on protocols such as OLSR or
+AODV cannot be used with extreme mobility.&lt;/p&gt;</summary></entry><entry><title></title><link href="http://hipercom.inria.fr/Project-GETRF/.html" rel="alternate"></link><updated>2014-10-13T16:10:44+02:00</updated><author><name>Ichrak Amdouni</name></author><id>tag:hipercom.inria.fr/Project-GETRF,2014-10-13:.html</id><summary type="html">&lt;p&gt;In the context of GETRF project, we have developed many deliverables. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/GETRF_livrable1.pdf"&gt;Description of the general architecture defined in this project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;General Architecture&lt;/strong&gt;,
+&lt;em&gt;Paul Mulethaler, Pascale Minet, Emmanuel Baccelli, Cédric Adjih&lt;/em&gt;, 
+November 2012.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable2.pdf"&gt;Scheduling with Graph Coloring&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Joint Routing and TDMA-based Scheduling
+to Minimize Delays in Grid Wireless Sensor
+Networks&lt;/strong&gt;, &lt;em&gt;Ichrak Amdouni, Cédric Adjih, Pascale Minet&lt;/em&gt;,
+February 2013.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable3.pdf"&gt;Network coding for wireless networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Codage réseau&lt;/strong&gt;, &lt;em&gt;Cédric Adjih, Ichrak Amdouni
+Hana Baccouch, Antonia Masucci&lt;/em&gt;, 
+January 2014.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable4.pdf"&gt;Duty Cycle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Architecture of low duty-cycle mechanisms&lt;/strong&gt;,
+&lt;em&gt;Nadjib Aitsaadi, Paul M..uhlethaler, Mohamed-Haykel Zayani&lt;/em&gt;, 
+February 2014.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable5.pdf"&gt;Opportunistic routing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Improving throughput in multihop networks
+using node mobility&lt;/strong&gt;, &lt;em&gt;Philippe Jacquet and Alonso Silva&lt;/em&gt;,
+February 2014.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable6.pdf"&gt;Network coding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;DragonNet: Specification, Implementation, Experimentation
+and Performance Evaluation&lt;/strong&gt;, 
+&lt;em&gt;Ichrak Amdouni, Antonia Masucci, Hana Baccouch, Cedric Adjih&lt;/em&gt;,
+September 2014.&lt;/p&gt;</summary></entry><entry><title></title><link href="http://hipercom.inria.fr/Project-GETRF/.html" rel="alternate"></link><updated>2014-10-13T16:10:44+02:00</updated><author><name>Ichrak Amdouni</name></author><id>tag:hipercom.inria.fr/Project-GETRF,2014-10-13:.html</id><summary type="html">&lt;p&gt;In the context of GETRF project, we have developed many deliverables. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/GETRF_livrable1.pdf"&gt;Description of the general architecture defined in this project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;General Architecture&lt;/strong&gt;,
+&lt;em&gt;Paul Mulethaler, Pascale Minet, Emmanuel Baccelli, Cédric Adjih&lt;/em&gt;, 
+November 2012.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable2.pdf"&gt;Scheduling with Graph Coloring&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Joint Routing and TDMA-based Scheduling
+to Minimize Delays in Grid Wireless Sensor
+Networks&lt;/strong&gt;, &lt;em&gt;Ichrak Amdouni, Cédric Adjih, Pascale Minet&lt;/em&gt;,
+February 2013.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable3.pdf"&gt;Network coding for wireless networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Codage réseau&lt;/strong&gt;, &lt;em&gt;Cédric Adjih, Ichrak Amdouni
+Hana Baccouch, Antonia Masucci&lt;/em&gt;, 
+January 2014.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable4.pdf"&gt;Duty Cycle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Architecture of low duty-cycle mechanisms&lt;/strong&gt;,
+&lt;em&gt;Nadjib Aitsaadi, Paul M..uhlethaler, Mohamed-Haykel Zayani&lt;/em&gt;, 
+February 2014.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable5.pdf"&gt;Opportunistic routing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Improving throughput in multihop networks
+using node mobility&lt;/strong&gt;, &lt;em&gt;Philippe Jacquet and Alonso Silva&lt;/em&gt;,
+February 2014.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable6.pdf"&gt;Network coding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;DragonNet: Specification, Implementation, Experimentation
+and Performance Evaluation&lt;/strong&gt;, 
+&lt;em&gt;Ichrak Amdouni, Antonia Masucci, Hana Baccouch, Cedric Adjih&lt;/em&gt;,
+September 2014.&lt;/p&gt;</summary></entry><entry><title></title><link href="http://hipercom.inria.fr/Project-GETRF/.html" rel="alternate"></link><updated>2014-10-13T16:10:44+02:00</updated><author><name>Ichrak Amdouni</name></author><id>tag:hipercom.inria.fr/Project-GETRF,2014-10-13:.html</id><summary type="html">&lt;h2&gt;Context of the project&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.agence-nationale-recherche.fr"&gt;
+The French National Research Agency&lt;/a&gt; launches 
+in partnership with the Defense Procurement Agency (DGA) a programme called 
+&lt;a href="http://www.agence-nationale-recherche.fr/en/research-programmes/aap-en/
+specific-support-for-research-works-and-innovation-defense-astrid-2011/nc/"&gt;ASTRID&lt;/a&gt;: 
+Specific support for research works and innovation defense. 
+This programme is funded entirely by the DGA and is housed at the ANR 
+which ensures its implementation.
+ASTRID is a programme dedicated to support small research projects 
+with a highly exploratory and innovative nature, with a duration of 
+less than 36 months and whose applications are dual (both civilian and military). &lt;/p&gt;
+&lt;h2&gt;Scope of the Project&lt;/h2&gt;
+&lt;p&gt;GETRF project focuses on &lt;b&gt;wireless multihop military networks&lt;/b&gt;. The aim is to propose new mechanisms
+to improve the performance of these networks. &lt;br&gt; 
+This project considers wireless multihop networks as a whole of which &lt;b&gt;mobile ad hoc networks 
+(MANETs) and sensor wireless networks (WSNs)&lt;/b&gt; are specific cases, 
+with both differences and commonalities. &lt;br&gt;
+&lt;br clear="all"&gt; 
+The goal is to address two major challenges in tactical military networks: 
+&lt;ul class="list2 pad_bot2"&gt;
+&lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;b&gt; Efficient management of energy, latency and network capacity.&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;b&gt; Efficient management of the network in mobile or degraded environment.&lt;/b&gt;&lt;/li&gt; 
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;These objectives may for instance answer two scenario of functioning of military tactical networks:
+&lt;ul class="list2 pad_bot2"&gt;
+    &lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;b&gt; A stabilized and static situation in operating normally&lt;/b&gt;, where the goal is to optimize the 
+    network usage.&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;b&gt; The case of more critical scenarios&lt;/b&gt;, for instance, 
+    the case of high mobility, the case of unexpected degradation of the quality 
+    of one part of the network, and, also, the case where the broadcast information is exceeding the capacity, which are all cases where
+    the goal is to operate despite the very high constraints.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;h2&gt;Research directions&lt;/h2&gt;
+&lt;p&gt;To answer these objectives, GETRF targets a layered architecture combining three type of mechanisms: 
+&lt;ul class="list2 pad_bot2"&gt;
+    &lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt; &lt;b&gt;Network coding techniques&lt;/b&gt;. These recent schemes allow for more robust information
+     broadcast in the case of changes in the network (mobility, degradation of one part of the network), 
+     to reduce the control traffic exchanges, and more generally, to increase network efficiency
+      (less transmissions, more capacity). 
+    &lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt; &lt;b&gt;Node coloring techniques&lt;/b&gt;. They allow time-slots to be assigned to nodes or links of the wireless network. 
+    These techniques allow one to build efficient Time Division Multiple Access techniques. The medium access 
+    scheme obtained can be very energy efficient (low duty cycle) and can also offer very good end-to-end delays. 
+    &lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt; &lt;b&gt;Opportunistic routing schemes&lt;/b&gt;. Opportunistic routing protocols, usually based on 
+    geographic routing, can improve the total throughput of ad hoc networks. They can also be combined with medium access schemes 
+    to build network nodes operating in low-duty cycle mode. These schemes 
+    can be very energy efficient. Another application of opportunistic routing is a coupling with mobility 
+    (mobile opportunistic routing schemes). On can take advantage of nodes' mobility to optimize the delivery delay. 
+&lt;/ul&gt; &lt;/p&gt;
+&lt;h2&gt;Perspectives&lt;/h2&gt;
+&lt;p&gt;For wireless sensor networks, GETRF paves the way for very energy efficient networks while offering acceptable data delivery delays. 
+For surveillance applications (therefore carrying very little information), the project should lead to networks with very long lifetimes.
+For ad hoc networks, the GETRF project aims at supporting networks with high mobility where the current networks based on protocols such as OLSR or
+AODV cannot be used with extreme mobility.&lt;/p&gt;</summary></entry></feed>

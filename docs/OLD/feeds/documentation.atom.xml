@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GETRF</title><link href="http://hipercom.inria.fr/Project-GETRF/" rel="alternate"></link><link href="http://hipercom.inria.fr/Project-GETRF/feeds/documentation.atom.xml" rel="self"></link><id>http://hipercom.inria.fr/Project-GETRF/</id><updated>2014-10-13T16:10:44+02:00</updated><entry><title></title><link href="http://hipercom.inria.fr/Project-GETRF/.html" rel="alternate"></link><updated>2014-10-13T16:10:44+02:00</updated><author><name>Ichrak Amdouni</name></author><id>tag:hipercom.inria.fr/Project-GETRF,2014-10-13:.html</id><summary type="html">&lt;p&gt;In the context of GETRF project, we have developed many deliverables. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/GETRF_livrable1.pdf"&gt;Description of the general architecture defined in this project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;General Architecture&lt;/strong&gt;,
+&lt;em&gt;Paul Mulethaler, Pascale Minet, Emmanuel Baccelli, Cédric Adjih&lt;/em&gt;, 
+November 2012.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable2.pdf"&gt;Scheduling with Graph Coloring&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Joint Routing and TDMA-based Scheduling
+to Minimize Delays in Grid Wireless Sensor
+Networks&lt;/strong&gt;, &lt;em&gt;Ichrak Amdouni, Cédric Adjih, Pascale Minet&lt;/em&gt;,
+February 2013.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable3.pdf"&gt;Network coding for wireless networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Codage réseau&lt;/strong&gt;, &lt;em&gt;Cédric Adjih, Ichrak Amdouni
+Hana Baccouch, Antonia Masucci&lt;/em&gt;, 
+January 2014.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable4.pdf"&gt;Duty Cycle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Architecture of low duty-cycle mechanisms&lt;/strong&gt;,
+&lt;em&gt;Nadjib Aitsaadi, Paul M..uhlethaler, Mohamed-Haykel Zayani&lt;/em&gt;, 
+February 2014.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable5.pdf"&gt;Opportunistic routing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Improving throughput in multihop networks
+using node mobility&lt;/strong&gt;, &lt;em&gt;Philippe Jacquet and Alonso Silva&lt;/em&gt;,
+February 2014.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./Docs/getrf_livrable6.pdf"&gt;Network coding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;DragonNet: Specification, Implementation, Experimentation
+and Performance Evaluation&lt;/strong&gt;, 
+&lt;em&gt;Ichrak Amdouni, Antonia Masucci, Hana Baccouch, Cedric Adjih&lt;/em&gt;,
+September 2014.&lt;/p&gt;</summary></entry></feed>
